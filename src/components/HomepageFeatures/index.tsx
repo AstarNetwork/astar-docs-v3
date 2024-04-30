@@ -19,8 +19,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Discover all the essential resources needed to begin creating, testing, 
-          and deploying decentralized applications on Astar Network.
+          Discover essential resources to begin creating, testing, and deploying decentralized applications on the network.
         </Translate>
       </>
     ),
@@ -28,16 +27,51 @@ const FeatureList: FeatureItem[] = [
     {
     title: <Translate>Use</Translate>,
     link: '/use/',
-    iconClass: 'docs',
+    iconClass: 'node',
     description: (
       <>
         <Translate>
-          Gain valuable insights and hands-on experience with 
-          using the network with hands-on tutorials, examples and more.
+          Gain valuable insights and experience using the network through hands-on tutorials, examples and more.
         </Translate>
       </>
     ),
   },
+    {
+    title: <Translate>About Astar</Translate>,
+    link: '/about/',
+    iconClass: 'docs',
+    description: (
+      <>
+        <Translate>
+          Learn more about the technology, economics, and culture behind the network.
+        </Translate>
+      </>
+    ),
+    },
+    {
+      title: <Translate>Quickstart - Build on Layer 1</Translate>,
+      link: '/build/build-on-layer-1',
+      iconClass: 'wrench',
+      description: (
+        <>
+          <Translate>
+            Skip the intro and jump right into building decentralized applications on Layer 1.
+          </Translate>
+        </>
+      ),
+    },
+    {
+      title: <Translate>Quickstart - Build on Layer 2</Translate>,
+      link: '/build/build-on-layer-2',
+      iconClass: 'wrench',
+      description: (
+        <>
+          <Translate>
+            Skip the intro and jump right into building decentralized applications on Layer 2.
+          </Translate>
+        </>
+      ),
+    },
 ];
 
 function Feature({ title, iconClass, description, link }: FeatureItem) {

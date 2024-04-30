@@ -3,7 +3,9 @@ title: Build
 position: 2
 ---
 
-# Why build on Astar?
+[INSERT NEW BRAND IMAGE]
+
+# Network Features
 Astar is a interoperable smart contract platform providing native access to the Polkadot and Ethereum networks through its Layer 2 zkEVM and Substrate Parachain, and other networks plugged into Polygon AggLayer. The Astar tech stack empowers developers with the freedom to choose the network environment(s) that best suits the needs of their decentralised applications. 
 
 Astar Network Key Features:
@@ -20,7 +22,7 @@ Astar Network Key Features:
 
 ## Which network should you deploy on?
 
-[INSERT_LAYER1_CLOUD&BUTTON] [INSERT_LAYER2_CLOUD&BUTTON] \\ these two images should display the main benefits of deploying on either our Layer 1 or Layer 2 networks. let's visualize the features listed below and have developers make a choice by clicking here to see further details about each one and how to get started.
+[INSERT_LAYER1_CLOUD&BUTTON] [INSERT_LAYER2_CLOUD&BUTTON] \\ Note: these two images should display the main benefits of deploying on either our Layer 1 or Layer 2 networks. let's visualize the features listed (below and) in the following sections and make developers choose which network to build on right here.
 
 Build2Earn - Only on Layer 1
 Astar network's innovative Build2Earn program allows developers to earn a basic income while they build out their products and communities. Users are able to support projects by staking on them, which adds to the passive income developers earn and forms the basis of an unstoppable grant. Build2Earn encourages projects to stand out and provide value directly to end-users. See the dApp staking section for more information.
@@ -28,11 +30,11 @@ Astar network's innovative Build2Earn program allows developers to earn a basic 
 Wasm smart contracts - Only on Layer 1
 Start building and deploying native smart contracts for Polkadot with ink!.
 
-EVM smart contracts
+EVM smart contracts - Everywhere
 Solidity developers feel right at home building on Astar, no matter where they choose to deploy.
 
 Ethereum Ecosystem & Community - Only on Layer 2
 Direct access to the largest developer base and community support networks in the web3 industry.
 
-Secured by Polkadot, Ethereum, and Polygon
+Secured by Ethereum, Polkadot, and Polygon
 Providing some of the best security guarantees in the industry.

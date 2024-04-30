@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Astar Docs v3.0',
-  tagline: 'The Official Source For Creators Building on Astar Network',
+  tagline: 'The Official Source For Developers Building on Astar Network',
   url: 'https://docs.astar.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -92,7 +92,7 @@ presets: [
             items: [
               {
                 label: 'Site Index',
-                to: './getting-started',
+                to: '/getting-started',
               },
             ],
           },
