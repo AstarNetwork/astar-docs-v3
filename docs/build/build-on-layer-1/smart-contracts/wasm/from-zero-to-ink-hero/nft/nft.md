@@ -34,7 +34,7 @@ To follow this tutorial you will need:
 - Event handling.
 
 ## Summary
-[I. OpenBrush wizard](./Wizard/wizard.md)   
+[I. OpenBrush wizard](./Wizard/index.md)   
 [II. Override mint() method](./Override/override.md)   
 [III Custom Trait for mint()](./CustomTrait/customtrait.md)   
 [IV. PayableMint Trait definition](./PayableMintTrait/payableminttrait.md)   
