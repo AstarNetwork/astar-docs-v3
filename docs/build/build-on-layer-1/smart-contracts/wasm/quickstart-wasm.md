@@ -5,7 +5,7 @@ title: Quickstart Guide
 import Figure from '/src/components/figure'
 
 # Quickstart Guide for Astar Substrate Native Network
-Everything required to start deploying dApps on Astar Substrate Native Network (hereafter referred to as **Astar Substrate**), and nothing more.
+Everything required to start deploying dApps on Astar Substrate Native Network (hereafter referred to as **Astar Substrate**), all in one place.
 
 ## Connecting to Astar Substrate Network
 

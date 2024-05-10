@@ -1,8 +1,5 @@
-
 ---
-sidebar_position: 1
-title: Astar zkEVM Quickstart Guide
-sidebar_label: Quickstart
+title: zkEVM Quickstart Guide
 ---
 import Figure from '/src/components/figure'
 

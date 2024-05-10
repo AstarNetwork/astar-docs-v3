@@ -6,7 +6,7 @@ import Figure from '/src/components/figure'
 
 # Quickstart Guide for Astar Substrate EVM 
 
-Everything required to start deploying dApps on Astar Substrate EVM (hereafter referred to as **Astar EVM**), and nothing more.
+Everything required to start deploying dApps on Astar Substrate EVM (hereafter referred to as **Astar EVM**), all in one place.
 
 ## Connecting to Astar EVM Networks
 
