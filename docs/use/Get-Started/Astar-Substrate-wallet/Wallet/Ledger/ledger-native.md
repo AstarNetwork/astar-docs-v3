@@ -26,11 +26,11 @@ This tutorial walks through the process of setting up a Ledger device to partici
 
 Ensure Ledger Live is up to date.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger1.png').default} width='1200px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger1.png').default} width='1200px' />
 
 - If prompted to update the device Firmware do so, as it will update the Astar app as well.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger2.png').default} width='1200px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger2.png').default} width='1200px' />
 
 - Once Ledger Live is up to date, ensure the latest Astar app (version 2.52.2 or higher) is installed.
 
@@ -38,7 +38,7 @@ Ensure Ledger Live is up to date.
 Ledger NanoS users should install the Astar XL version of the app, shown in the image below:
 :::
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger3.png').default} width='1200px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger3.png').default} width='1200px' />
 
 ### Import Ledger account to Polkadot.js
 
@@ -46,17 +46,17 @@ Ledger NanoS users should install the Astar XL version of the app, shown in the 
 - Click the + sign menu option.
 - Choose ‘Attach ledger account.’ Make sure your ledger is unlocked.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger4.png').default} width='600px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger4.png').default} width='600px' />
 
 - Follow through the process of Importing a Ledger Account by specifying a descriptive name. The default name and settings are shown in the image below:
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger5.png').default} width='600px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger5.png').default} width='600px' />
 
 ### Configure the Ledger device connection method
 
 - Once the Ledger account has been imported, visit the [Astar Network settings page on the Polkadot.js apps portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.astar.network#/settings) and ensure **Attach Ledger via WebHID** is the preferred connection method listed under *account options* > *manage hardware connections*, as shown in the image below:
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger7.png').default} width='1200px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger7.png').default} width='1200px' />
 
 ### Visit the Astar Portal
 
@@ -64,15 +64,15 @@ Ledger NanoS users should install the Astar XL version of the app, shown in the 
 - Connect the Polkadot.js extension to the Portal.
 - Select the Ledger account that was imported during the last step.  Check the toggle so Portal knows the device is a ledger. It can now be used to participate in dApp staking.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger8.png').default} width='600px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger8.png').default} width='600px' />
 
-For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation] (/docs/use/dapp-staking/for-stakers/) **LINK TO UPDATE** or [Ledger EVM staking guide](/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/ledger-evm.md)
+For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation] (/docs/use/dapp-staking/for-stakers/) **LINK TO UPDATE** or [Ledger EVM staking guide](/docs/use/get-started/astar-evm-wallet/wallet/ledger/ledger-evm.md)
 
 :::tip
 If you receive a **Ledger error: Failed to execute 'claimInterface' on 'USBDevice': Unable to claim interface** message during the dApp staking claim process, ensure you are performing the operation using a Chromium-based browser such as Chrome or Brave, and the Ledger device connection method is WebHID, as outlined in the previous step.
 :::
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Ledger/img/ledger6.png').default} width='600px' />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger6.png').default} width='600px' />
 
 ## Ledger NanoS and S-plus/X device limitations
 

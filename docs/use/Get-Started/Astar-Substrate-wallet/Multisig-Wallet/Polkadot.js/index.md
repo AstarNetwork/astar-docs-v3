@@ -17,7 +17,7 @@ This tutorial serves as a guide to create a multisig substrate wallet.
 3. Click `+ Add Contact` and add all the contact addresses that you want to include in the multisig wallet.
 4. For example; Bob, Charlie and Dave.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Multisig-Wallet/Polkadot.js/img/12.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/multisig-wallet/polkadot.js/img/12.png').default} width="100%" />
 
 ## Create new wallet
 
@@ -27,7 +27,7 @@ This tutorial serves as a guide to create a multisig substrate wallet.
 4. Give the multisig wallet a name.
 5. Click "Create".
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Multisig-Wallet/Polkadot.js/img/13.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/multisig-wallet/polkadot.js/img/13.png').default} width="100%" />
 
 ## Test the wallet
 

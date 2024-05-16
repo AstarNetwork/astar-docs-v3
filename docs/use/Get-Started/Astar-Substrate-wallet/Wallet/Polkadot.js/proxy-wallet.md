@@ -28,17 +28,17 @@ To create a proxy account, follow these steps:
 
 9. **Submit the transaction:** Once you have filled in all the necessary details, find the button to submit the transaction. Click on it to initiate the process.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/33.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/33.png').default} width="100%" />
 
 You will then be prompted to authorize and sign the transaction. Go ahead and click **Sign and Submit** to create the proxy relationship.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/34.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/34.png').default} width="100%" />
 
 Once the transaction has been successfully submitted, you will receive notifications confirming the transaction.
 
 You can also find the event `proxy.ProxyAdded` in recently emitted events inside  **Network** > **Explorer** tab.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/35.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/35.png').default} width="100%" />
 
 **Verifying Proxy Account**
 ---
@@ -49,14 +49,14 @@ There are many ways of verifying if your proxy was added or not. Easiest way to 
 2. Here find you **Primary Account** and click on the 3 dots as seen in the provided picture.
 
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/36.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/36.png').default} width="100%" />
 
 3. Select **Manage proxies** option.
 
 
 Here you can see the list of all proxies that you account has. For this tutorial, it is only **Balances** proxy that we added in the above section.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/37.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/37.png').default} width="100%" />
 
 :::tip
 
@@ -92,6 +92,6 @@ To submit a proxy transaction, follow these steps:
 
 9. **Click Submit Transaction:** Once you have entered all the necessary details, click on "Submit Transaction" to initiate the transaction.
 
-<Figure src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Polkadot.js/img/38.png').default} width="100%" />
+<Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/38.png').default} width="100%" />
 
 Congratulations! You've completed the entire process successfully. You have created a proxy account, reviewed all the proxy accounts linked to your primary account, performed a proxy transaction, and even removed a proxy account. Well done!

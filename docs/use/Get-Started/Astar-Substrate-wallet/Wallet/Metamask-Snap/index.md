@@ -16,15 +16,15 @@ Follow these steps to interact with the Astar Wallet snap [Portal](https://porta
 
 <div>
   <video width="300" controls>
-    <source src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/astar_snap_30s_v1.mp4').default } />
+    <source src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/astar_snap_30s_v1.mp4').default } />
   </video>
 </div>
 
 ## Connect to the Portal
 
 Click the webpage button labeled "Astar Snap" with the MetaMask logo
-
-<Figure caption='Connect to the Portal' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/01.png').default } width="100%" />
+'/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/
+<Figure caption='Connect to the Portal' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/01.png').default } width="100%" />
 
 ## Review & Accept Third-Party Software Notice
 
@@ -35,10 +35,10 @@ accept it, click the MetaMask "Third-party software notice" button labeled
 <!-- markdownlint-disable MD033 -->
 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
   <div style={{ marginRight: '10px' }}>
-    <Figure caption='Review 3rd-Party Software Notice' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/02.png').default } width="100%" />
+    <Figure caption='Review 3rd-Party Software Notice' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/02.png').default } width="100%" />
   </div>
   <div>
-    <Figure caption='Accept 3rd-Party Software Notice' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/03.png').default } width="100%" />
+    <Figure caption='Accept 3rd-Party Software Notice' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/03.png').default } width="100%" />
   </div>
 </div>
 
@@ -48,7 +48,7 @@ Review the connection request and, if you accept it, click the MetaMask
 "Connection request" button labeled "Connect" to accept the Astar Wallet snap
 connection request.
 
-<Figure caption='Connection Request' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/04.png').default } width="40%" />
+<Figure caption='Connection Request' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/04.png').default } width="40%" />
 
 ## Review Snap Permissions & Begin Installation
 
@@ -58,10 +58,10 @@ labeled "Install" to begin installing the Astar Wallet snap.
 
 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
   <div style={{ marginRight: '10px' }}>
-    <Figure caption='Review Permissions' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/05.png').default } width="100%" />
+    <Figure caption='Review Permissions' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/05.png').default } width="100%" />
   </div>
   <div>
-    <Figure caption='Begin Installation' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/06.png').default } width="100%" />
+    <Figure caption='Begin Installation' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/06.png').default } width="100%" />
   </div>
 </div>
 
@@ -77,10 +77,10 @@ button labeled "OK" to continue to the example dApp.
 
 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
   <div style={{ marginRight: '10px' }}>
-    <Figure caption='Confirm Elevated Permissions' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/08.png').default } width="100%" />
+    <Figure caption='Confirm Elevated Permissions' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/08.png').default } width="100%" />
   </div>
   <div>
-    <Figure caption='Installation is Complete' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/09.png').default } width="100%" />
+    <Figure caption='Installation is Complete' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/09.png').default } width="100%" />
   </div>
 </div>
 
@@ -90,9 +90,9 @@ The Astar Snap Wallet is now configured. Notice the address
 was derived using the entropy from your MetaMask seed phrase and the snapId.
 The public key does _not_ depend on the network and will always be the same.
 
-<Figure caption='Connect' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/10.png').default } width="100%" />
+<Figure caption='Connect' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/10.png').default } width="100%" />
 
-<Figure caption='Account Details' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/13.png').default } width="100%" />
+<Figure caption='Account Details' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/13.png').default } width="100%" />
 
 ## How to Remove
 
@@ -103,10 +103,10 @@ This action will not destroy your account or your funds. But deleting your MetaM
 
 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
   <div style={{ marginRight: '10px' }}>
-    <Figure caption='Remove Astar Wallet' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/11.png').default } width="100%" />
+    <Figure caption='Remove Astar Wallet' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/11.png').default } width="100%" />
   </div>
   <div>
-    <Figure caption='Remove Snap' src={require('/docs/use/Get-Started/Astar-Substrate-wallet/Wallet/Metamask-Snap/img/12.png').default } width="100%" />
+    <Figure caption='Remove Snap' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/12.png').default } width="100%" />
   </div>
 </div>
 
