@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
-sidebar_label: Astar EVM - Choose your wallet
-title: Astar EVM - Choose your wallet
+sidebar_position: 1
+sidebar_label: Astar Portal
+title: Interact with the Astar Portal
 ---
 
 ## Head Title

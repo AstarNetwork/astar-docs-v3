@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-sidebar_label: Astar EVM - Choose your wallet
-title: Astar EVM - Choose your wallet
+sidebar_label: Multisig Wallet
+title: Create an Astar Multisig Wallet
 ---
 
 ## Head Title

@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
-sidebar_label: Astar EVM - Choose your wallet
-title: Astar EVM - Choose your wallet
+sidebar_position: 1
+sidebar_label: Astar Layer 1
+title: Interact with Astar Layer 1 (Substrate)
 ---
 
 ## Head Title
