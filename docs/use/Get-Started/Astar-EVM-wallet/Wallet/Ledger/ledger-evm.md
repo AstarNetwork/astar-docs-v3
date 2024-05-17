@@ -65,31 +65,31 @@ If you already have this, feel free to skip this part.
 
 After this step, you should have one or both of these apps:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/1-AstarEVM.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/1-AstarEVM.jpg').default} height='200px' />
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/2-ShidenEVM.jpg').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/2-ShidenEVM.jpg').default} height='400px' />
 
 ## Connecting your Ledger device to MetaMask
 
 1. In MetaMask menu select “Connect Hardware wallet:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/connect_hw_wallet.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/connect_hw_wallet.png').default} height='400px' />
 
 2. On the next screen select “Ledger” and click “Continue:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/select_ledger.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/select_ledger.png').default} height='400px' />
 
 3. Pair and connect your Device when prompted by the browser:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/pair_hid.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/pair_hid.png').default} height='400px' />
 
 4. Select an account you wish to connect and click “Unlock”:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/select_acc.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/select_acc.png').default} height='400px' />
 
 5. You should now see your account and balance:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/acc_balance.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/acc_balance.png').default} height='400px' />
 
 # Receiving tokens
 
@@ -101,34 +101,34 @@ To receive tokens, copy the address of your connected account by clicking your a
 2. Enter the amount to send and click “Next”
 3. Connect your Ledger device and unlock it. Due to MetaMask limitations, it will prompt you to open Ethereum App. Ignore this and open Astar EVM app.
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/confirm_tx.png').default} height='400px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/confirm_tx.png').default} height='400px' />
 
 4. When your Ledger device screen is showing “Application is ready”, click “Confirm” in MetaMask:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/3-ApplicationIsReady.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/3-ApplicationIsReady.jpg').default} height='200px' />
 
 5. Review the transaction on your Ledger device:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/4-ReviewTransaction.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/4-ReviewTransaction.jpg').default} height='200px' />
 
     a) Check amount:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/5-AmountASTR1.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/5-AmountASTR1.jpg').default} height='200px' />
 
     b) Check receiving address:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/6-Address.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/6-Address.jpg').default} height='200px' />
     c) Check network:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/7-Network_Astar.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/7-Network_Astar.jpg').default} height='200px' />
 
     d) Check Fees:
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/9-MaxFees_ASTR.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/9-MaxFees_ASTR.jpg').default} height='200px' />
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/11-AcceptAndSend.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/11-AcceptAndSend.jpg').default} height='200px' />
 
-<Figure src={require('/docs/use/Get-Started/Astar-EVM-wallet/Wallet/Ledger/img/12-Reject.jpg').default} height='200px' />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/12-Reject.jpg').default} height='200px' />
 
 6. Check the transaction result in MetaMask “Activity” tab.
 
