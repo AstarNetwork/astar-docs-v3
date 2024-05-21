@@ -3,6 +3,10 @@ title: Quickstart Guide
 ---
 
 import Figure from '/src/components/figure'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Figure src={require('/docs/build/img/evm.png').default } width="100%" />
 
 # Quickstart Guide for Astar Substrate EVM 
 
@@ -11,8 +15,7 @@ Everything required to start deploying dApps on Astar Substrate EVM (hereafter r
 ## Connecting to Astar EVM Networks
 
 :::info
-Although the free endpoints below are intended for end users, they can still be used to interact with dApps or deploy/call smart contracts. It should be noted however that 
-they <b>rate-limit API calls</b>, so are not suitable for high demand applications, such as dApp UIs that scrape users' blockchain history.
+Although the free endpoints below are intended for end users, they can still be used to interact with dApps or deploy/call smart contracts. It should be noted however that they <b>rate-limit API calls</b>, so are not suitable for high demand applications, for example: dApp UIs that scrape account histories.
 :::
 
 :::tip
@@ -92,20 +95,26 @@ To meet the demands of production dApps developers should run their own [archive
 
 [INSERT FAUCET INSTRUCTIONS]
 
-## Block Explorer
+## Bridging Assets
 
-[INSERT BLOCK EXPLORER]
+To move assets from Astar Native to Astar L1 EVM use [Astar Network portal](https://portal.astar.network/).
+
+To move assets from Ethereum to Astar L1 EVM use [cBridge](https://cbridge.celer.network/).
+
+To get testnet tokens (SBY) use faucet on [Astar Network portal](https://portal.astar.network/).
 
 ## Deploying Smart Contracts
 
 The development experience on Astar EVM is seamless and nearly identical to the Ethereum Virtual Machine. Developers can use existing code and tools on Astar EVM and users benefit from high transaction throughput and low fees. Read more about deploying smart contracts on Astar EVM [here.](/docs/build/build-on-layer-1/smart-contracts/EVM/index.md)
 
-## Metamask setup for Shibuya testnet
-To add Shibuya testnet to MetaMask, use the link at the bottom of the [block explorer](https://zkatana.blockscout.com/), or fill in the following details manually:
+## Metamask quick setup for Shibuya testnet
+To add Astar and other networks to MetaMask, use the button at the bottom of the respective block explorer:
 
-<Figure src={require('/docs/build/build-on-layer-2/img/metamask-network.png').default} width="400px" />
+    - [Astar](https://astar.blockscout.com/)
+    - [Shiden](https://shiden.blockscout.com/)
+    - [Shibuya](https://shibuya.blockscout.com/)
 
-## Astar EVM Support for Developers
+## Astar EVM support for developers
 
 Developers requiring support can join the [Astar Discord server](https://discord.gg/astarnetwork). 
 
