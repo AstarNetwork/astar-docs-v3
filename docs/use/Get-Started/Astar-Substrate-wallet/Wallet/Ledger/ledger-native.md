@@ -89,7 +89,7 @@ You successfully connected to Ledger Astar account.
 
 <Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger-astar-app-5.png').default} width="80%" />
 
-For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation](/docs/use/dapp-staking/for-stakers/) or [Ledger EVM staking guide](/docs/use/get-started/astar-evm-wallet/index.md)
+For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation](/docs/use/how-to-guides/layer-1/dapp-staking/for-stakers/index.md) or [Ledger EVM staking guide](/docs/use/get-started/astar-evm-wallet/index.md)
 
 :::tip
 If you receive a **Ledger error: Failed to execute 'claimInterface' on 'USBDevice': Unable to claim interface** message during the dApp staking claim process, ensure you are performing the operation:
