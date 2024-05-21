@@ -1,5 +1,5 @@
 ---
-title: Use
+title: Use Astar Network
 position: 1
 ---
 
