@@ -4,6 +4,8 @@ sidebar_label: Lockdrop
 title: Interact with Lockdrop accounts
 ---
 
+import Figure from "/src/components/figure"
+
 ## Regaining Access to Lockdrop Accounts
 
 We want to remind our users that lockdrop accounts were specifically created for the purpose of claiming ASTR lockdrop rewards and were not intended for ongoing transactions or use as regular accounts. Importantly, access to these accounts was disabled one and a half years following the claim period, impacting users who had not withdrawn their funds within this extended timeframe.
@@ -20,9 +22,7 @@ The EVM address will be used to dispatch the call on behalf of the lockdrop acco
 2. Log in using your Ethereum lockdrop address.
 3. Select "Switch to lockdrop account."
 
-<div style={{textAlign: 'center'}}>
-    <img src={require('/docs/use/how-to-guides/layer-1/astar-portal/img/lockdropacc.png').default } style={{width: 1200}} />
-</div>
+<Figure src={require('/docs/use/how-to-guides/layer-1/astar-portal/img/lockdropacc.png').default } width="100%" />
 
 4. Authenticate by signing the message.
 5. Carefully read and comprehend the warnings.

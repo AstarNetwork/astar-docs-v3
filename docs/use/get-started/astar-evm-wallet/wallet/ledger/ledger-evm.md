@@ -39,16 +39,18 @@ If you already have this, feel free to skip this part.
 2. Enter following details:
 
 <TabItem value="astar" label="Astar Network" default>
-    |   | Public endpoint Astar |
-    | --- | --- |
-    | Network name | Astar Network |
-    | New RPC URL | Astar Team: https://evm.astar.network |
-    |         | BlastAPI: https://astar.public.blastapi.io |
-    |         | Dwellir: https://astar-rpc.dwellir.com |
-    |         | OnFinality: https://astar.api.onfinality.io/public |
-    | Chain ID | 592 |
-    | Currency symbol | ASTR |
-    | Block Explorer URL | https://astar.blockscout.com/ |
+
+|   | Public endpoint Astar |
+| --- | --- |
+| Network name | Astar Network |
+| New RPC URL | Astar Team: https://evm.astar.network |
+|         | BlastAPI: https://astar.public.blastapi.io |
+|         | Dwellir: https://astar-rpc.dwellir.com |
+|         | OnFinality: https://astar.api.onfinality.io/public |
+| Chain ID | 592 |
+| Currency symbol | ASTR |
+| Block Explorer URL | https://astar.blockscout.com/ |
+
 </TabItem>
 <br></br>
 

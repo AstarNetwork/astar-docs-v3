@@ -4,11 +4,11 @@ sidebar_label: Mobile Wallet
 title: Create an Astar Wallet on a Mobile Device
 ---
 
-**This guide will support you to setup an Astar/Shiden wallet for both EVM and Native on your mobile.**
+In this section, you will find comprehensive guides to choose, install, and use different Substrate (Polkdot) mobile wallet providers. Whether you're a beginner or an experienced user, our step-by-step tutorials will help you seamlessly integrate popular wallets like Math Wallet and others with Astar Network.  
 
-There are a few mobile wallets that support Astar native environment such as [Nova Wallet](https://novawallet.io/), [Math Wallet](https://mathwallet.org/en-us/) and [SubWallet](https://subwallet.app/), while [Metamask](https://metamask.io/download/) supports Astar EVM. 
+Explore the features, learn best practices for secure transactions, and get tips to maximize your experience on Astar network.
 
-## Pages of interest:
+### Choose a mobile wallet provider:
 
 import DocCardList from '@theme/DocCardList';
 import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
