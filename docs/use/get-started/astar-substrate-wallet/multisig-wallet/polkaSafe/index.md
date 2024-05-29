@@ -15,7 +15,7 @@ At the time of this release, PolkaSafe only supports Astar Network.
 
 ## **Prerequisites**
 
-- Install a [Substrate wallet](/docs/use/get-started/astar-substrate-wallet/wallet/index.md) (such as Polkadot.js, SubWallet, or Talisman) on your browser.
+- Install a [Substrate wallet](/docs/use/get-started/astar-substrate-wallet/index.md) (such as Polkadot.js, SubWallet, or Talisman) on your browser.
 
 - Prepare at least two Astar wallet addresses [See reference] (/docs/use/manage-wallets/using-a-multisig-account-on-astar-portal.md)  **LINK TO UPDATE**
 

@@ -25,6 +25,20 @@ You can read more about Proxy accounts [here] (/docs/learn/Proxies). **LINK TO U
 
 Astar EVM side allows Ethereum-style addresses (H160 format), which is 40+2 hex-characters long, in a Substrate based chain. This address matches a private key, which can be used to sign transactions in the Ethereum side of the chain. Furthermore, the address is mapped into a storage slot inside the Substrate Balance pallet to a Substrate-style address (H256 format).
 
+## Astar Accounts
+
+### Address Format
+
+The address format used in Substrate-based chains like Astar is SS58. SS58 is a modification of Base-58-check from Bitcoin with some minor modifications. Notably, the format contains an address type prefix that identifies an address as belonging to a specific network. Astar Network is special in the Polkadot ecosystem because it's the only parachain that supports EVM as WASM smart contract. With the use of two different virtual machines comes two different kinds of addresses.
+
+- An Astar Native address or SS58 address
+- An Astar EVM address or H160 address which starts with 0x
+
+<img width="800" alt="1" src="https://user-images.githubusercontent.com/77480847/186840773-5874ba05-a067-4204-b72f-3f1017de85b7.png" />
+<img width="800" alt="2" src="https://user-images.githubusercontent.com/77480847/186840936-692dc1f3-c5a8-450f-813c-6067c60f8cc2.png" />
+
+You will interact with our Astar native address when using WASM dApps are ready or our dApps Staking page. Using this address requires another extension than MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
+
 
 ## Learn more
 [Create a Substrate account] (/docs/use/manage-wallets/create-wallet/) **LINK TO UPDATE**
