@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: Ledger for Astar Native
+sidebar_label: Ledger
 title: Interact with Ledger using Astar Native Accounts
 ---
 import Figure from "/src/components/figure"
@@ -16,9 +16,8 @@ import Figure from "/src/components/figure"
 :::danger
 At the time of this release (Version `2.83.0`), the following operations are **NOT SUPPORTED** on Ledger devices:
 
-- **EVM withdrawal**: It is not possible to claim tokens from the Astar EVM side.
 - **XCM transfers**
-- **Vesting**
+
 :::
 
 This tutorial describes the process of configuring a Ledger device to manage assets, connect to the Astar portal and participate in dApp staking using native ASTR tokens. It also includes the initiation of the first interaction between the device and the network.
@@ -89,7 +88,7 @@ You successfully connected to Ledger Astar account.
 
 <Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/ledger/img/ledger-astar-app-5.png').default} width="80%" />
 
-For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation](/docs/use/how-to-guides/layer-1/dapp-staking/for-stakers/index.md) or [Ledger EVM staking guide](/docs/use/get-started/astar-evm-wallet/wallet/ledger/ledger-evm.md)
+For detailed information about dApp staking or how to stake on the EVM side of Astar Portal using a Ledger device, please refer to the [Astar official documentation](/docs/use/how-to-guides/layer-1/dapp-staking/for-stakers/index.md) or [Ledger EVM staking guide](/docs/use/get-started/astar-evm-wallet/wallet/ledger/index.md)
 
 :::tip
 If you receive a **Ledger error: Failed to execute 'claimInterface' on 'USBDevice': Unable to claim interface** message during the dApp staking claim process, ensure you are performing the operation:

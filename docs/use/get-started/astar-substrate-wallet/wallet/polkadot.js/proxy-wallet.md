@@ -44,9 +44,9 @@ You can also find the event `proxy.ProxyAdded` in recently emitted events inside
 ---
 There are many ways of verifying if your proxy was added or not. Easiest way to do so is using the **Accounts** page.
 
-1. Navigate to the Accounts page by clicking on **Accounts** tab and then selecting **Accounts**.
+1. Navigate to the Accounts page by clicking on **Accounts** tab and then selecting **Accounts**;
 
-2. Here find you **Primary Account** and click on the 3 dots as seen in the provided picture.
+2. Here find you **Primary Account** and click on the 3 dots as seen in the provided picture;
 
 
 <Figure src={require('/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/img/polkadot_js_proxy_4.png').default} width="100%" />

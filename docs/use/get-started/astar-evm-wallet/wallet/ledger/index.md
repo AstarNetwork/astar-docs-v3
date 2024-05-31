@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-sidebar_label: Ledger for Astar EVM
+sidebar_position: 2
+sidebar_label: Ledger
 title: Interact with Ledger on Astar EVM using MetaMask
 ---
 
@@ -112,19 +112,20 @@ To receive tokens, copy the address of your connected account by clicking your a
 5. Review the transaction on your Ledger device;
 
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/4-ReviewTransaction.jpg').default} height='200px' />
-
-    a) Check amount:
+    
+    a. Check amount:
 
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/5-AmountASTR1.jpg').default} height='200px' />
-
-    b) Check receiving address:
+    
+    b. Check receiving address:
 
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/6-Address.jpg').default} height='200px' />
-    c) Check network:
+    
+    c. Check network:
 
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/7-Network_Astar.jpg').default} height='200px' />
-
-    d) Check Fees:
+    
+    d. Check Fees:
 
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/ledger/img/9-MaxFees_ASTR.jpg').default} height='200px' />
 
