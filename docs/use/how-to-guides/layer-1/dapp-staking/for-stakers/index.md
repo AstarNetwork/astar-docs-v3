@@ -37,9 +37,9 @@ If a project is **unregistered** from dApp Staking, staked tokens on that projec
 
 :::warning
 
- There is no rewards during the Unlocking period when unstaking from dApp Staking;
+There is no rewards during the Unlocking period when unstaking from dApp Staking;
 
- :::
+:::
 
 ### Bonus Staking Rewards:
 
@@ -66,7 +66,7 @@ Bonus rewards for a period can only be claimed after the period finishes.
 - When unlocking tokens, there is a unlocking period on Astar and on Shiden. The unlocking period lenghts can be consulted [here] (/docs/learn/dapp-staking/#parameters).  **LINK TO UPDATE**
 Please note that this is based on a perfect block production of 12s. In case of any delay, your unlocking period can be a little longer.
 
-In case you have any questions, please check the [FAQ page] (/docs/learn/dapp-staking/dapp-staking-faq/)  **LINK TO UPDATE** in the Learn section or join our [Discord channel] (https://discord.com/invite/astarnetwork).  **LINK TO UPDATE**
+In case you have any questions, please check the [FAQ page] (/docs/learn/dapp-staking/dapp-staking-faq/)  **LINK TO UPDATE** in the Learn section or join our [Discord channel](https://discord.com/invite/astarnetwork).
 
 ### Other pages may be of interest:
 

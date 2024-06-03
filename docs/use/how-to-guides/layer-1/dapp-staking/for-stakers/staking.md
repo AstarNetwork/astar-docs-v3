@@ -6,17 +6,17 @@ import Figure from "/src/components/figure"
 
 # How to stake
 
-:::warning
+:::tip
 
- To earn rewards continuously, users have to vote and stake **every [new period] (/docs/use/dapp-staking/for-stakers/#periods-subperiods--eras).**  **LINK TO UPDATE**
+To earn rewards continuously, users have to vote and stake **every [new period](/use/how-to-guides/layer-1/dapp-staking/for-stakers/).**
 
- :::
+:::
 
 At the end of a Period, tokens are unstaked from all dApps, remain locked on the account but must be staked back on dApps for the new Period.
 
 ### Visit dApp Staking on the Portal
 
-Go to the [Astar Portal] (https://portal.astar.network/astar/dapp-staking/discover):  **LINK TO UPDATE**  and click on the `dApp Staking` page.
+Go to the [Astar Portal](https://portal.astar.network/astar/dapp-staking/discover) and click on the `dApp Staking` page.
 
 Make sure you are connected to the correct network.
 - **Shibuya Network**: testnet

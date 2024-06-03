@@ -10,7 +10,7 @@ You can educate yourself more by reading the technical documentation about [dApp
 
 **Are you a product owner and want to list your dApp in our staking mechanism to earn rewards?**  
 
-Please take the following parameters into consideration and make sure you meet the [requirements] (/docs/use/dapp-staking/for-devs/requirements.md): **LINK TO UPDATE**
+Please take the following parameters into consideration and make sure you meet the [requirements](/use/how-to-guides/layer-1/dapp-staking/for-devs/requirements.md):
 
 :::tip
 

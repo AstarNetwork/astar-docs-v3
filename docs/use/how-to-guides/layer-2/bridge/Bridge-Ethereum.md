@@ -38,7 +38,7 @@ After entering the amount of ETH to be transferred, press the `Bridge` button;
 :::info
 The transfer can take between 10 and 30 minutes, depending on Ethereum network usage.
 
-Once the transaction has been confirmed in your wallet extension, it will take approximately **5-10 minutes** for the Astar portal and MetaMask to update your balance on the Astar zkEVM network.
+Once the transaction has been confirmed in your wallet extension, it will take approximately **5-10 minutes** for the Astar portal and MetaMask to update your balance on Astar zkEVM network.
 :::
 
 ### From Astar zkEVM to Ethereum
@@ -50,9 +50,6 @@ Make sure you have enough `ETH` tokens on mainnet to cover the fees.
 
 1. Ensure `Astar zkEVM` is selected as the **source network**, and that `Ethereum` is selected as the **destination network**;  
 After entering the amount of ETH to be transferred, press the `Bridge` button;
-=======
-4. Ensure Ethereum is selected as the Bridge source, and that Astar zkEVM is selected as the destination;  
-   After entering the amount of ETH to be transferred, press the `Bridge` button;
 
 <Figure src={require('/docs/use/how-to-guides/layer-2/bridge/img/Bridge_ETH_Portal_6.png').default} width="100%" />
 

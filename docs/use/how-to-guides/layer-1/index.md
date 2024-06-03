@@ -4,9 +4,11 @@ sidebar_label: Astar Layer 1
 title: Interact with Astar Layer 1 (Substrate)
 ---
 
-## Head Title
+## What is Astar Layer 1
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Astar Network, a powerful Layer 1 blockchain built and connected to Polkadot as a parachain, enables scalable and interoperable decentralized applications (dApps) by supporting both Ethereum Virtual Machine (EVM) and WebAssembly (Wasm) smart contracts. 
+
+Our detailed How to guides will help you navigate the Astar Portal, transfer and manage tokens, and understand dApp Staking, the distinctive staking mechanism of Astar. Whether you're a developer or an investor, explore our resources to effectively utilize Astar Network on Polkadot.
 
 ## Pages of interest:
 

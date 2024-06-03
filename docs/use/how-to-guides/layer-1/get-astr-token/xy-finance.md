@@ -4,9 +4,11 @@ sidebar_label: XY Finance
 title: "Cross-Chain Swap : XY Finance"
 ---
 
+import Figure from "/src/components/figure"
+
 ## Swap Cross-Chain Assets from Major EVM Chains to Astar
 
-In this tutorial, we will guide you through the process for making a cross-chain swap from at least 12 EVM chains to Astar.
+In this tutorial, you'll learn how to do a cross-chain swap from at least 12 EVM chains to Astar.
 
 ## Visit XY Finance’s X swap page
 
@@ -14,11 +16,12 @@ XY Finance is a one-stop cross-chain swap aggregator for DeFi & Metaverse, allow
 
 ## Connect Wallet
 
-Click the “Connect Wallet” button.
+Click the `Connect Wallet` button.
 
 Before you explore the straightforward features offered by XY Finance, you will need to connect your wallet. XY Finance currently supports Metamask and WalletConnect on desktop browsers, with more types of wallets supported on mobile.
 
-![26](img/26.png)
+<Figure src={require('/docs/use/how-to-guides/layer-1/get-astr-token/img/xy_finance_1.png').default} width="100%" /> 
+
 
 ## Swap token
 
@@ -28,20 +31,20 @@ Choose the token you want to swap on your source chain and the token you want to
 
 Enter the amount of USDT you want to swap.
 
-![27](img/27.png)
+<Figure src={require('/docs/use/how-to-guides/layer-1/get-astr-token/img/xy_finance_2.png').default} width="100%" /> 
 
 Double-check the recipient's address. XY Finance will display your connected wallet address by default and it also allows you to change the recipient address.
 
-![28](img/28.png)
+<Figure src={require('/docs/use/how-to-guides/layer-1/get-astr-token/img/xy_finance_3.png').default} width="100%" /> 
 
-Click the “Approve to Swap” button, and your wallet will ask you to confirm the action.
+Click the `Approve to Swap` button, and your wallet will ask you to confirm the action.
 
-![29](img/29.png)
+<Figure src={require('/docs/use/how-to-guides/layer-1/get-astr-token/img/xy_finance_4.png').default} width="100%" /> 
 
 # Swap
 
-Click the “ Swap” button, and your wallet will ask you to confirm the action again. Confirm your transaction from your wallet.
+Click the `Swap` button, and your wallet will ask you to confirm the action again. Confirm your transaction from your wallet.
 
-![30](img/30.png)
+<Figure src={require('/docs/use/how-to-guides/layer-1/get-astr-token/img/xy_finance_5.png').default} width="100%" /> 
 
 You will receive your ASTR on Astar Network in a few minutes.

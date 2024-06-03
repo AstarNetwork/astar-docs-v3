@@ -4,32 +4,42 @@ sidebar_label: Setup Astar Network
 title: Setup Astar Network in Metamask
 ---
 
-In this tutorial we will navigate you how to add Astar/Shiden Network to your Metamask account.
+import Figure from '/src/components/figure'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';   
 
-<br />
+In this tutorial, you'll learn how to add Astar Network to your Metamask wallet extension.
 
-Adding Astar Network to Metamask is very easy.
-<br />
+## Option 1: Using the Astar Portal
 
-1. You will just need to go to [our Portal](https://portal.astar.network/) and try to connect to Metamask.
+1. Go to the [Astar Portal](https://portal.astar.network/) and connect your Metamask wallet.
 
-<img width="1000" alt="Screenshot 2022-09-06 at 14 08 21" src="https://user-images.githubusercontent.com/77480847/188554147-02f09f39-6051-4f7f-8e6f-d263867afb88.png" /><br />
-<br />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/metamask/img/metamask_6.png').default} width="100%" /> 
 
-2. Metamask will pop-up and ask you if you would like to add Astar Network. Please check the info and approve.<br />
 
-<img width="400" alt="Screenshot 2022-09-06 at 14 33 44" src="https://user-images.githubusercontent.com/77480847/188554595-bd9b0a82-5d15-4420-9eda-44c32418d2a1.png" />
+2. Metamask will pop-up and ask you if you would like to add Astar Network. Please check the info and approve.
 
-<br />
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/metamask/img/metamask_7.png').default} width="80%" /> 
 
-:::note
-Alternatively, you can also set it up manually by giving information bellow.
-<br />
-Network Details<br />
-Network Name: Astar Network Mainnet<br />
-Network URL: https://evm.astar.network<br />
-Chain ID: 592<br />
-Currency Symbol: astr<br />
-Block Explorer URL: https://blockscout.com/astar
+## Option 2: Add Astar Network to Metamask manually
 
-:::
+Alternatively, you can configure it manually by entering the information below in Settings > Networks in your Metamask extension.
+
+<Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/metamask/img/metamask_8.png').default} width="100%" /> 
+
+<br></br>
+
+<TabItem value="astar" label="Astar Network" default>
+
+|   | Public endpoint Astar |
+| --- | --- |
+| Network name | Astar Network |
+| New RPC URL | Astar Team: https://evm.astar.network |
+|         | BlastAPI: https://astar.public.blastapi.io |
+|         | Dwellir: https://astar-rpc.dwellir.com |
+|         | OnFinality: https://astar.api.onfinality.io/public |
+| Chain ID | 592 |
+| Currency symbol | ASTR |
+| Block Explorer URL | https://astar.blockscout.com/ |
+
+</TabItem>
