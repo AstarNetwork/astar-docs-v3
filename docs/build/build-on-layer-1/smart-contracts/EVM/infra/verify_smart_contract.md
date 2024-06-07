@@ -34,7 +34,7 @@ Due to compiler constraints, contracts **with OpenZeppelin-related source contra
 In this section, we will go through the process of verifying a smart contract **without OpenZeppelin-related source contracts.** 
 In the previous guide, we went through the process of using Remix IDE to deploy a smart contract on Astar EVM. Let's start from there:
 
-[How to use Remix IDE to deploy an on-chain storage contract on Astar EVM | Astar Docs](/docs/build/build-on-layer-1/builder-guides/astar_features/use_remix.md)
+[How to use Remix IDE to deploy an on-chain storage contract on Astar EVM | Astar Docs](/docs/build/builder-guides/layer-1/evm/astar_features/use_remix.md)
 
 Copy the deployed contract address under the `Deployed Contracts` section
 

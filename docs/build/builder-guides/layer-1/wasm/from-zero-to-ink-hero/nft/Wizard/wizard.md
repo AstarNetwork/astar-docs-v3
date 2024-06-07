@@ -5,7 +5,7 @@
 To create a smart contract which follows PSP34 standard use Openbrush Wizard:
 1. Open [Openbrush.io](https://openbrush.io/) website and go to bottom of the page.
 2. Select PSP34.
-3. Select the version to match the rest of the tutorial. Check *What will be used* in the [opening chapter](/docs/build/build-on-layer-1/smart-contracts/wasm/from-zero-to-ink-hero/nft/nft.md#what-will-be-used).
+3. Select the version to match the rest of the tutorial. Check *What will be used* in the [opening chapter](/docs/build/builder-guides/layer-1/wasm/from-zero-to-ink-hero/nft/nft.md#what-will-be-used).
 4. Name your contract. In this tutorial we will use `Shiden34`.
 5. Add your symbol name. In this tutorial we will use `SH34`.
 6. Select extensions: *Metadata*, *Mintable*, *Enumerable*.

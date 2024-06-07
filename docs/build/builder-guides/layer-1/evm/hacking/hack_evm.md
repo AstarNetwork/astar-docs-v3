@@ -12,7 +12,7 @@ Read the linked chapters or use tutorials to be able to answer following questio
 
 ## Setup MetaMask and Remix
 * Did you install and connect your MetaMask to Shibuya? Which `Chain Id` did you use to setup Shibuya Network in MetaMask?
-* Connect to browser IDE Remix using this [tutorial](/docs/build/build-on-layer-1/builder-guides/astar_features/use_remix.md)
+* Connect to browser IDE Remix using this [tutorial](/docs/build/builder-guides/layer-1/evm/astar_features/use_remix.md)
 * Does your environment look like this:
 
 <Figure src={require('./img/custom_net.png').default } width="400px" />
@@ -29,7 +29,7 @@ Since it's inception, Solidity has become mainstream language for smart contract
 
 ## Setup Hardhat and Truffle
 The Truffle and Hardhat are preferred tools to develop, deploy and test smart contract. For this guide we will pick Hardhat.
-Setup your Hardhat environment using [How to use Hardhat to deploy on Shibuya](/docs/build/build-on-layer-1/builder-guides/astar_features/use_hardhat.md).
+Setup your Hardhat environment using [How to use Hardhat to deploy on Shibuya](/docs/build/builder-guides/layer-1/evm/astar_features/use_hardhat.md).
 
 
-What is [next](/docs/build/build-on-layer-1/builder-guides/hacking/next.md)? 
+What is [next](/docs/build/builder-guides/layer-1/evm/hacking/next.md)? 

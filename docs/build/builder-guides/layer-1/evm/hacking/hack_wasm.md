@@ -30,7 +30,7 @@ Please note that the current version of polkadot-JS is broken for contracts beca
 
 :::
 
-## From Zero to ink Hero [Tutorials](/docs/build/build-on-layer-1/smart-contracts/wasm/from-zero-to-ink-hero/flipper-contract/flipper.md)
+## From Zero to ink Hero [Tutorials](/docs/build/builder-guides/layer-1/wasm/from-zero-to-ink-hero/flipper-contract/flipper.md)
 Depending on your confidence, use any of these tutorial. If you are just starting, the Flipper contract is the way to go.
 * Your task is to deploy the contract from the tutorial to Shibuya Network.
   * After you build contract notice where the `.contract` and `metadata.json` are created.
@@ -40,4 +40,4 @@ Depending on your confidence, use any of these tutorial. If you are just startin
   * Use Polkadot-JS UI to reload same contract you just deployed using Contracts-UI.
 
 
-What is [next](/docs/build/build-on-layer-1/builder-guides/hacking/next.md)? 
+What is [next](/docs/build/builder-guides/layer-1/evm/hacking/next.md)? 

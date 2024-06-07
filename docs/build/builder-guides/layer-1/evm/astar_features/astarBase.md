@@ -399,6 +399,6 @@ That’s a wrap! Happy hacking!
 
 ## Reference
 
-- Official Guide for AstarBase](/docs/build/build-on-layer-1/builder-guides/astar_features/astarBase.md/)
+- Official Guide for AstarBase](/docs/build/builder-guides/layer-1/evm/astar_features/astarBase.md/)
 - Official Document for creating a React app:
    - [https://reactjs.org/docs/create-a-new-react-app.html](https://reactjs.org/docs/create-a-new-react-app.html)
