@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Create Account
-If you never created a native Astar account, please follow the instructions in the [User Guide] (/docs/use/manage-wallets/create-wallet.md) [INSERT LINK].
+If you never created a native Astar account, please follow the instructions in the [User Guide] (/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet.md) [INSERT LINK].
 
 If you are building EVM smart contracts you will need Metamask. Watch this short video to learn how.
 

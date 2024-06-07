@@ -230,7 +230,7 @@ If you wish to move cross-chain (XCM) assets to Astar Substrate accounts from As
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/astar-portal/img/transfer_20.png').default } width="100%" />
 
-a. If you are on Astar EVM, insert the destination address. You will need to use the [origin chain’s address] (https://docs.astar.network/docs/learn/interoperability/xcm/faq#q-where-can-i-find-other-chains-addresses). **[INSERT LINK]**
+a. If you are on Astar EVM, insert the destination address. You will need to use the [origin chain’s address] (https://docs.astar.network/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/faq#q-where-can-i-find-other-chains-addresses). **[INSERT LINK]**
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/astar-portal/img/transfer_21.png').default } width="100%" />
 

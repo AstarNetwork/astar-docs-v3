@@ -19,8 +19,8 @@ These are major remarks about the migration:
 
 If any of the terms above are unclear to you (e.g. _staking_ vs _locking_) you can find detailed exaplanation the following sections:
 
-- [Tokenomics 2.0](/docs/learn/tokenomics2/)
-- [dApp Staking V3 Technical Overview](/docs/learn/dapp-staking/dapp-staking-protocol/)
+- [Tokenomics 2.0](/docs/about/economics/index.md)
+- [dApp Staking V3 Technical Overview](/docs/about/products/dapp-staking/dapp-staking-protocol.md/)
 
 ### Practical explanation with an example:
 
@@ -159,8 +159,8 @@ The process of application and registration for dApps will not change.
 
 Please, find more information here:
 
-- Requirements: https://docs.astar.network/docs/use/dapp-staking/for-devs/requirements;
-- Registration: https://docs.astar.network/docs/use/dapp-staking/for-devs/register-dapp.
+- Requirements: https://docs.astar.network/docs/about/products/dapp-stakingfor-devs/requirements;
+- Registration: https://docs.astar.network/docs/about/products/dapp-stakingfor-devs/register-dapp.
 
 ***❗ Once the dApp has been registered, stakers can stake on it immediately, and the dApp can earn rewards from the era in which it was registered.***
 
@@ -206,7 +206,7 @@ Ledger users will still be able to withdraw funds from dApp staking, they only w
 Ledger is currently developing a new generic app for all Polkadot/Kusama parachains, and that should be available soon (within months). Once that’s available, Ledger native users will be able to participate in dApp staking V3.
 
 **What can I do right now?**
-If you wish to actively participate in dApp Staking v3 from the start, you should [initiate the unbonding period immediately](https://docs.astar.network/docs/use/dapp-staking/dapp-staking-v2/unbonding) and move your funds to either an Astar EVM Account supported by Ledger (see below), or move funds to a hot wallet.
+If you wish to actively participate in dApp Staking v3 from the start, you should [initiate the unbonding period immediately](https://docs.astar.network/docs/about/products/dapp-stakingdapp-staking-v2/unbonding) and move your funds to either an Astar EVM Account supported by Ledger (see below), or move funds to a hot wallet.
 
 :::info
 It is possible that by the dApp staking v3 launch Ledger generic app will be available, completely removing this limitation.

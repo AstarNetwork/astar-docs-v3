@@ -14,7 +14,7 @@ By clicking on your dApp in the **Your Project** panel, you will have access to 
 
 ### Your Dashboard:
 
-- **Curent Tier:** The current tier to which your dApp has been assigned. See [Tier system] (/docs/use/dapp-staking/for-devs/#tier-system-and-rewards) for more information;  **LINK TO UPDATE**
+- **Curent Tier:** The current tier to which your dApp has been assigned. See [Tier system] (/docs/about/products/dapp-stakingfor-devs/#tier-system-and-rewards) for more information;  **LINK TO UPDATE**
 - **Number of stakers:** Total of current stakers on your dApp;
 - **Total Earned:** Total tokens received in the dApp Staking program;
 

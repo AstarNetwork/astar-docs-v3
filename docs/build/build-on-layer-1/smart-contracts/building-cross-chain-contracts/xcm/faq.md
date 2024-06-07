@@ -12,11 +12,11 @@ Yes. visit Polkadot.js, connect your wallet and go to Network > Balances and sel
 
 ## Q: I used XCM to transfer 5 DOT from Polkadot to Astar, but only received 4.999
 
-Please note that the gas amount will be deducted from the amount entered, so the amount transferred should be adjusted according to account for the gas fee estimate. For more information, visit [here](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/using-xcm/) 
+Please note that the gas amount will be deducted from the amount entered, so the amount transferred should be adjusted according to account for the gas fee estimate. For more information, visit [here](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/using-xcm/index.md) 
 
 ## Q: My balance should be 1.00012 DOT but the Portal is displaying 1 DOT, where are they?
 
-The current version of Astar Portal rounds balances to the 3rd decimal. If you have a similar issue please refer to the [previous FAQ entry](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/faq-for-smart-contracts) and instructions on how to use Polkadot.js to find your exact balance.
+The current version of Astar Portal rounds balances to the 3rd decimal. If you have a similar issue please refer to the [previous FAQ entry](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/faq-for-smart-contracts.md) and instructions on how to use Polkadot.js to find your exact balance.
 
 ## Q: Can I send my DOT token to other Parachains?
 

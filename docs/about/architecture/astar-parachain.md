@@ -48,10 +48,10 @@ Read more about [Runtime development](https://docs.substrate.io/fundamentals/run
 The Polkadot runtime does not support smart contracts. Smart contracts require a Virtual Machine (VM) environment where contracts can be executed, and the most well-known and widely supported platform being the Ethereum Virtual Machine (EVM). Substrate FRAME contains modules that support Wasm smart contract execution, as well as EVM.
 
 ### Ethereum Virtual Machine (EVM)
-The Ethereum Virtual Machine (EVM) is a virtual computer with components that enable Ethereum network participants to store data and agree on the state of that data. On a Substrate-based blockchain, the core responsibilities of the EVM are implemented in the EVM pallet, that's responsible for executing Ethereum contract bytecode written in a high level language like Solidity. Astar EVM provides a fully Ethereum Virtual Machine compatible platform, which you can learn more about in the [EVM chapter](/docs/build/evm). 
+The Ethereum Virtual Machine (EVM) is a virtual computer with components that enable Ethereum network participants to store data and agree on the state of that data. On a Substrate-based blockchain, the core responsibilities of the EVM are implemented in the EVM pallet, that's responsible for executing Ethereum contract bytecode written in a high level language like Solidity. Astar EVM provides a fully Ethereum Virtual Machine compatible platform, which you can learn more about in the [EVM chapter](/docs/build/build-on-layer-1/smart-contracts/EVM/index.md)
 
 ### Substrate Virtual Machine for Wasm Contracts
-Substrate also ships with a module for smart contracts, called `pallet-contracts`. If a parachain is developed on Substrate it can easily add smart contract functionality by including this pallet. Astar supports this Polkadot Native approach to smart contracts, and you can learn more in the [Wasm chapter](/docs/build/wasm). 
+Substrate also ships with a module for smart contracts, called `pallet-contracts`. If a parachain is developed on Substrate it can easily add smart contract functionality by including this pallet. Astar supports this Polkadot Native approach to smart contracts, and you can learn more in the [Wasm chapter](/docs/build/build-on-layer-1/smart-contracts/wasm/index.md). 
 
 
 

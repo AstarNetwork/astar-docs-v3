@@ -36,4 +36,4 @@ You can use these `MultiLocation` values to add Astar native assets to a paracha
 `{ parents: 1, interior: X3(Parachain(2006/7), PalletInstance(36), GeneralIndex(*asset_id*) }`
 
 - Please note that these assets can be created by any user.
-- Asset metadata (if available) can be found on-chain, by consulting the asset owner, or in our [official asset list](/docs/learn/interoperability/xcm/asset-list).
+- Asset metadata (if available) can be found on-chain, by consulting the asset owner, or in our [official asset list](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/asset-list.md).

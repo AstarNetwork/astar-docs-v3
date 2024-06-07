@@ -5,23 +5,23 @@ sidebar_position: 6
 # Networks
 ## Overview
 
-Prior to commencing development it's important to understand the Astar Network family, and choose an appropriate network based on what you would like to do. Currently, there are a number of networks available, including the Local network which runs exclusively within your development environment. All networks support EVM RPCs, and Astar Parachain supports Substrate RPC as well.
+Prior to commencing development it's important to understand the Astar Network family, and choose an appropriate network to deploy on based on what you would like to do. Currently, there are a number of networks available, including the Local network which runs exclusively within your development environment. All networks support EVM RPCs, and Astar Parachain supports Substrate RPC as well.
 
 ![Astar networks](../about/products/img/fig4.jpg)
 
 ## Local Networks
 
 ### Substrate Node
-You can clone the Astar repository and run the local node provided, or download the precompiled binary and run it, instead. Both methods are described in the [Build](/docs/build) section.
+You can clone the Astar repository and run the local node provided, or download the precompiled binary and run it, instead. Both methods are described in the [Nodes](/docs/build/build-on-layer-1/nodes/index.md) section.
 
 ### Swanky Node
 
 Swanky Node is a Substrate based blockchain configured to enable the smart contract module `pallet-contracts`, and other features that assist local development of Wasm smart contracts.
-For more information about Swanky Node, check out the [Swanky Suite](https://docs.astar.network/docs/build/wasm/swanky-suite/) section. [INSERT LINK]
+For more information about Swanky Node, check out the [Swanky Suite](https://docs.astar.network/docs/build/build-on-layer-1/smart-contracts/wasm/swanky-suite/) section. [INSERT PROPER LINK]
 
 ### Zombienet
 
-With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](https://docs.astar.network/docs/build/environment/zombienet-testing) chapter. [INSERT LINK]
+With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](https://docs.astar.network/docs/build/environment/zombienet-testing) chapter. [INSERT PROPER LINK]
 
 ## Testnets
 
@@ -33,10 +33,6 @@ Shibuya is running as a parachain of the Tokio Relay Chain, which is managed int
 The Shibuya native token symbol is SBY.
 
 To obtain test tokens from the faucet, please visit the Astar Portal and connect to Shibuya. If for any reason the faucet is empty, please contact the Astar team on Discord.
-
-### zKyoto (Sepolia)
-
-zKyoto is a Validium-based network connected to the Ethereum Sepolia testnet and Polygon AggLayer. It is the testing and proving ground for dApps deployed on the Astar zkEVM.
 
 ## Mainnets
 
@@ -54,7 +50,4 @@ By now you may have guessed that Astar parachain is connected to Polkadot Relay 
 
 The Astar native token symbol is ASTR.
 
-### Astar zkEVM
-
-Astar zkEVM is a Layer 2 scaling solution for Ethereum, powered by Polygon AggLayer. Technically referred to as a Validium, the zkEVM combines zk rollups with modular data availability, synthesizing the best features of each.
 
