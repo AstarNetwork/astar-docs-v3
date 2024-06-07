@@ -87,16 +87,17 @@ contract XcBurrito is Xc20Plus, ERC20Wrapper, BURRITO{
 
 ## Procedure
 ### 1. Create an XC20 asset
-Follow the documentation on how to [Create XC20 Assets](/docs/learn/interoperability/xcm/building-with-xcm/create-xc20-assets.md).
+Follow the documentation on how to [Create XC20 Assets](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/create-xc20-assets.md).
 
 ### 2. Deploy the xcBurrito.sol smart contract
 To deploy the XcBurrito contract you will need 2 input parameters
 - Burrito ERC20 token address (H160)
 - **XC20** asset address (H160)
-    - Follow the instructions about how to [Calculate an XC20 Address](/docs/learn/interoperability/xcm/building-with-xcm/create-xc20-assets.md#calculate-xc20-precompile-address). For example, if the asset_id is 17 (=0x11), the resulting EVM address will be `0xffffffff00000000000000000000000000000011`
+    - Follow the instructions about how to [Calculate an XC20 Address](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/create-xc20-assets.md#calculate-xc20-precompile-address). For example, if the asset_id is 17 (=0x11), the resulting EVM address will be `0xffffffff00000000000000000000000000000011`
 
 ### 3. Transfer XC Asset Ownership to the xcBurrito Smart Contract
 To allow the **xcBurrito** contract to be able to mint/burn you need to call the `setTeam()` extrinsic on pallet-assets, and configure the `issuer` and `admin` to be **xcBurrito**. This will allow the contract to issue wrapped **XC20** assets, but since the EVM contract has 24 bytes (H160), we will need to transform the EVM address to ss58 format before we can call the extrinsic.
+
 ![Set the team of XC20 asset by calling setTeam()](img/erc20-cross-chain-compatible-1.png)
 
 You can renounce ownership of the **XC20** by calling the `transferOwnership()` extrinsic on pallet-assets. Do note that after calling the extrinsic, you will no longer be able to

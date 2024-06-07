@@ -90,10 +90,10 @@ A concept of layer 2 scaling. Modular blockchain systems move two or more of the
  Partition of a blockchain network that allows for parallel processing of transactions to increase scalability and network capacity.
 
  ### Shiden
- The "canary network" for Astar connected to Kusama, a canary network for Polkadot. It consists of an early-release, unaudited version of the Astar codebase. It is not a testnet. For more info refer to the [Networks](/docs/learn/networks.md) section.
+ The "canary network" for Astar connected to Kusama, a canary network for Polkadot. It consists of an early-release, unaudited version of the Astar codebase. It is not a testnet. For more info refer to the [Networks](/docs/about/networks.md) section.
 
  ### Shibuya
- A testnet for Shiden and Astar. For more info refer to the [Networks](/docs/learn/networks.md) section.
+ A testnet for Shiden and Astar. For more info refer to the [Networks](/docs/about/networks.md) section.
 
  ### Smart Contract
  A self-executing computer program that automatically enforces and executes the terms of an agreement between parties on a blockchain network.
@@ -139,7 +139,7 @@ A concept of layer 2 scaling. Modular blockchain systems move two or more of the
  A cryptographic protocol that allows one party to prove knowledge of a secret without revealing the secret itself.
  
   ### zKatana
- A testnet for Astar zkEVM. For more info refer to the [Networks](/docs/learn/networks.md) section.
+ A testnet for Astar zkEVM. For more info refer to the [Networks](/docs/about/networks.md) section.
 
  ### Zombienet
  A CLI tool to easily spawn ephemeral Substrate-based networks and perform tests against them.

@@ -16,9 +16,9 @@ The other limiting factor is the **Proof of Validity** (PoV) size. Since Polkado
 
 In summary, there are two main factors limiting block production: `ref time` and `PoV size`, which taken all together, are collectively referred to as `weight`, an important concept when calculating transaction fees.
 
- <Figure caption="Block Consumption" src={require('/docs/learn/tokenomics2/img/Astar-Block-Consumption.jpeg').default } width="100%" />
+ <Figure caption="Block Consumption" src={require('/docs/about/economics/img/Astar-Block-Consumption.jpeg').default } width="100%" />
 
-Transaction Fees on Astar comprise of Native (Substrate) and EVM fees. Native and EVM transaction fees are calculated in different ways. Tokenomics 2.0 aligns the fees calculation between the two systems so that transactions consuming the same amount of block resources are priced roughly the same regardless of transaction type (Native or EVM).
+Transaction Fees on Astar are comprised of Native (Substrate) and EVM fees. Native and EVM transaction fees are calculated in different ways. Tokenomics 2.0 aligns the fees calculation between the two systems so that transactions consuming the same amount of block resources are priced roughly the same regardless of transaction type (Native or EVM).
 
 This section describes Tokenomics 2.0 fee model calculation details.
 

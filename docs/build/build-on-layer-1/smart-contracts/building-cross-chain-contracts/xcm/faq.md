@@ -12,11 +12,11 @@ Yes. visit Polkadot.js, connect your wallet and go to Network > Balances and sel
 
 ## Q: I used XCM to transfer 5 DOT from Polkadot to Astar, but only received 4.999
 
-Please note that the gas amount will be deducted from the amount entered, so the amount transferred should be adjusted according to account for the gas fee estimate. For more information, visit [here](/docs/learn/interoperability/xcm/using-xcm/) 
+Please note that the gas amount will be deducted from the amount entered, so the amount transferred should be adjusted according to account for the gas fee estimate. For more information, visit [here](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/using-xcm/) 
 
 ## Q: My balance should be 1.00012 DOT but the Portal is displaying 1 DOT, where are they?
 
-The current version of Astar Portal rounds balances to the 3rd decimal. If you have a similar issue please refer to the [previous FAQ entry](/docs/learn/interoperability/xcm/building-with-xcm/faq-for-smart-contracts) and instructions on how to use Polkadot.js to find your exact balance.
+The current version of Astar Portal rounds balances to the 3rd decimal. If you have a similar issue please refer to the [previous FAQ entry](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/faq-for-smart-contracts) and instructions on how to use Polkadot.js to find your exact balance.
 
 ## Q: Can I send my DOT token to other Parachains?
 
@@ -36,7 +36,7 @@ XC20 assets have a defined minimum-balance. The minimum-balance is the minimum b
 
 Take a look at an example of a transaction in case of an asset whose minimum-balance is 10: Alice has 10.9 tokens and tries to send Bob 10 tokens. Alice's remaining balance in that case would become 0.9, which is less than minimum amount, so the amount transferred would be set to 10.9 tokens, so Alice's balance will become 0, to avoid any funds being reaped by not fulfilling the Existential Deposit.
 
-For more information, check out this [section within our documentation](/docs/learn/interoperability/xcm/building-with-xcm/send-xc20-evm.md).
+For more information, check out this [section within our documentation](/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/send-xc20-evm.md).
 
 ## Q: Where can I find other chains' addresses?
 

@@ -7,7 +7,7 @@ sidebar_position: 6
 
 Prior to commencing development it's important to understand the Astar Network family, and choose an appropriate network based on what you would like to do. Currently, there are a number of networks available, including the Local network which runs exclusively within your development environment. All networks support EVM RPCs, and Astar Parachain supports Substrate RPC as well.
 
-![Astar networks](img/fig4.jpg)
+![Astar networks](../about/products/img/fig4.jpg)
 
 ## Local Networks
 
@@ -17,11 +17,11 @@ You can clone the Astar repository and run the local node provided, or download 
 ### Swanky Node
 
 Swanky Node is a Substrate based blockchain configured to enable the smart contract module `pallet-contracts`, and other features that assist local development of Wasm smart contracts.
-For more information about Swanky Node, check out the [Swanky Suite](https://docs.astar.network/docs/build/wasm/swanky-suite/) section.
+For more information about Swanky Node, check out the [Swanky Suite](https://docs.astar.network/docs/build/wasm/swanky-suite/) section. [INSERT LINK]
 
 ### Zombienet
 
-With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](https://docs.astar.network/docs/build/environment/zombienet-testing) chapter.
+With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](https://docs.astar.network/docs/build/environment/zombienet-testing) chapter. [INSERT LINK]
 
 ## Testnets
 
@@ -33,10 +33,6 @@ Shibuya is running as a parachain of the Tokio Relay Chain, which is managed int
 The Shibuya native token symbol is SBY.
 
 To obtain test tokens from the faucet, please visit the Astar Portal and connect to Shibuya. If for any reason the faucet is empty, please contact the Astar team on Discord.
-
-### zKatana (Sepolia) - Deprecated
-
-An early iteration of the zkEVM testnet that used zk rollup architecture. Now deprecated.
 
 ### zKyoto (Sepolia)
 

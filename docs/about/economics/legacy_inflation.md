@@ -10,8 +10,8 @@ For the latest, please refer to the _Tokenomics 2.0_ model.
 
 # Tokenomics 1.0
 
-import tokenomics from '/docs/learn/img/tokenomics_1.png'
-import inflation from '/docs/learn/img/inflation_1.png'
+import tokenomics from '/docs/about/economics/img/tokenomics_1.png'
+import inflation from '/docs/about/economics/img/inflation_1.png'
 
 [Astar Network]: https://astar.network/
 

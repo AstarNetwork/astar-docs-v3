@@ -12,7 +12,7 @@ For this demonstration, we will transfer **KSM** tokens from Kusama to Shiden Ne
 
 ## In Practise
 
-We will be using chopsticks for this demo (more info on the dedicated [chopsticks page](/docs/build/environment/chopsticks.md)).
+We will be using chopsticks for this demo (more info on the dedicated [chopsticks page](/docs/build/build-on-layer-1/environment/chopsticks.md).
 This command will spawn a chopsticks network that will replicate current state of Kusama relay-chain and Shiden parachain allowing XCM:
 
 ```bash

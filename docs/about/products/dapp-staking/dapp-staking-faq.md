@@ -145,7 +145,7 @@ As a staker, you will need to pick which dApp(s) to stake on again. **It’s imp
 
 ### Q: I've staked 16 dApps and now I can't add or move tokens and I'm getting an error. What should I do?
 
-<Figure src={require('/docs/learn/img/Maxium_contracts_error.png').default } width="50%" /> 
+<Figure src={require('/docs/about/products/img/Maxium_contracts_error.png').default } width="50%" /> 
 
 An address can stake on a maximum of 16 contracts (dApps).
 - You must unstake all your tokens from one of these dApps, so that you'll be staking on 15 dApps instead of 16.
