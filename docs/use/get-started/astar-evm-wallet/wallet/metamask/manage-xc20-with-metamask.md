@@ -29,6 +29,6 @@ Click on **Import Tokens** in MetaMask popup.
 <Figure src={require('/docs/use/get-started/astar-evm-wallet/wallet/metamask/img/Metamask_xc20_3.png').default} width="70%" /> 
 
 
-When you are finished adding and importing DOT, you will see them in your wallet. You can find the full list of supported XCM assets [(/docs/learn/interoperability/xcm/asset-list)].**[INSERT LINK]**
+When you are finished adding and importing DOT, you will see them in your wallet. You can find the full list of supported XCM assets [(/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/asset-list)].**[INSERT LINK]**
 
-To manually import assets that are not listed on the *Assets page*, follow [this guide] (/docs/learn/interoperability/xcm/building-with-xcm/send-xc20-evm.md#import-assets-on-metamask). **[INSERT LINK]**
+To manually import assets that are not listed on the *Assets page*, follow [this guide] (/docs/build/build-on-layer-1/smart-contracts/building-cross-chain-contracts/xcm/building-with-xcm/send-xc20-evm.md#import-assets-on-metamask). **[INSERT LINK]**

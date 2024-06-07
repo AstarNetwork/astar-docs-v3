@@ -41,8 +41,8 @@ You will interact with our Astar native address when using WASM dApps are ready 
 
 
 ## Learn more
-[Create a Substrate account] (/docs/use/manage-wallets/create-wallet/) **LINK TO UPDATE**
+[Create a Substrate account] (/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet/) **LINK TO UPDATE**
 
-[Create an EVM account] (/docs/use/evm-guides/setup-metamask/) **LINK TO UPDATE**
+[Create an EVM account] (/docs/use/how-to-guides/layer-1/evm-guides/setup-metamask/) **LINK TO UPDATE**
 
 [Read about Substrate accounts] (https://docs.substrate.io/learn/accounts-addresses-keys/) **LINK TO UPDATE**
