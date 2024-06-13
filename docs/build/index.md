@@ -1,6 +1,6 @@
 ---
 title: Build
-position: 2
+position: 3
 ---
 
 [INSERT NEW BRAND IMAGE]

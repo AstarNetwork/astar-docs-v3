@@ -1,10 +1,6 @@
----
-title: Guides
----
-
 import Figure from '/src/components/figure'
 
-# Build on Astar Substrate Parachain
+# Build on Astar Substrate Network
 
 <Figure src={require('/docs/build/img/builderguides.png').default } width="100%" />
 

@@ -21,11 +21,11 @@ For more information about Swanky Node, check out the [Swanky Suite](https://doc
 
 ### Zombienet
 
-With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](https://docs.astar.network/docs/build/environment/zombienet-testing) chapter. [INSERT PROPER LINK]
+With Zombienet users can download arbitrary Relay Chain and parachain binaries (or use images) to setup a configurable local test network. Users will have access to all privileged actions on the Relay Chain and parachains, which simplifies testing. For more information about Zombienet, check out the [Build Environment](/docs/build/build-on-layer-1/environment/zombienet-testing.md).
 
 ## Testnets
 
-### Shibuya (Substrate)
+### Shibuya 
 
 Shibuya has nearly the same chain specifications as Shiden & Astar, and provides an ideal environment for developers to test and debug, prior to launching their dApp on mainnet.
 Shibuya is running as a parachain of the Tokio Relay Chain, which is managed internally by the Astar team, and supports Shibuya, only, as test parachain.
@@ -38,14 +38,13 @@ To obtain test tokens from the faucet, please visit the Astar Portal and connect
 
 Astar has three mainnets. One parachain on Kusama, One parachain on Polkadot, and a zkEVM-based network on Ethereum Layer 2.
 
-### Shiden Parachain (Substrate)
+### Shiden Substrate Network
 
 Shiden is a parachain connected to the Kusama Relay Chain, and used to deploy and test new releases of Astar runtime in a live production (canary) environment. Shiden is not considered a testnet since SDN has its own tokenomics and value, but is used to validate and stabilize new software releases and upgrades for Astar Network.
 
 The Shiden native token symbol is SDN.
 
-### Astar Parachain (Substrate)
-
+### Astar Substrate Network
 By now you may have guessed that Astar parachain is connected to Polkadot Relay chain.
 
 The Astar native token symbol is ASTR.

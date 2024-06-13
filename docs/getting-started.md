@@ -1,6 +1,6 @@
 ---
-title: About Astar Docs
-sidebar_position: 1
+title: Getting Started
+position: 1
 ---
 
 # Overview
@@ -18,3 +18,7 @@ The Astar documentation portal serves as the official repository of current info
 - [**Deploy on Astar Substrate EVM Network**](build/build-on-layer-1/smart-contracts/EVM/index.md) [INSERT QUICKSTART EVM]
 - [**Deploy on Astar Substrate Native (Wasm) Network**](build/build-on-layer-1/smart-contracts/wasm/index.md) [INSERT QUICKSTART WASM]
 - [**Deploy on Astar zkEVM**](build/build-on-layer-2/index.md)
+
+## User Guides
+
+- [**How to get started on Astar Network**](/docs/use/get-started/index.md)

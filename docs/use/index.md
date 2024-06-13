@@ -1,6 +1,6 @@
 ---
 title: Use Astar Network
-position: 1
+position: 4
 ---
 
 # How to Interact with Astar Network
