@@ -4,7 +4,7 @@ sidebar_position: 3
 
 import Figure from "/src/components/figure"
 
-# Manage dApp & claim rewards
+# Manage dApp & Claim Rewards
 
 As a dApp owner, a new panel will appear in the Asset page of the Astar portal: **Your Project** ;
 

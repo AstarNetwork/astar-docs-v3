@@ -1,3 +1,8 @@
+---
+title: Build Wasm Smart Contracts
+position: 1
+---
+
 # From Zero to ink! Hero
 
 ```mdx-code-block

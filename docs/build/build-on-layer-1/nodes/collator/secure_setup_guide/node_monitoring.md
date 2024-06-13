@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# 5. Node Monitoring
+# Node Monitoring
 
 ## Installation of Node Monitoring
 

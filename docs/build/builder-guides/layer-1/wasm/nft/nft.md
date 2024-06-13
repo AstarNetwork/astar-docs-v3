@@ -11,7 +11,7 @@ This tutorial is suitable for developers with **intermediate** knowledge of ink!
 
 | Tutorial                                                                   | Difficulty                     |
 |----------------------------------------------------------------------------|--------------------------------|
-| [Your First Flipper Contract](../flipper-contract/flipper-contract.md)              | Basic ink! -  Basic Rust       | 
+| [Your First Flipper Contract](../flipper-contract/flipper.md)              | Basic ink! -  Basic Rust       | 
 | [Implement Uniswap V2 core DEX](../dex/dex.md) | Advanced ink! - Basic Rust |         
 
 ## How to Start

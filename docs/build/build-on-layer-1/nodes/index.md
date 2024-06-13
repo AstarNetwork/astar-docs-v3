@@ -1,3 +1,7 @@
+---
+position: 3
+---
+
 # Node Operators
 
 **Node SDK** is broken down into the following pages:

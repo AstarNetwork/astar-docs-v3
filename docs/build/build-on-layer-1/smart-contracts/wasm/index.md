@@ -1,6 +1,6 @@
 # Wasm Smart Contracts
 
-![Wasm Smart Contracts]https://docs.astar.network/build/img/wasm.png)
+![Wasm Smart Contracts](https://docs.astar.network/build/img/wasm.png)
 
 The **Wasm** section covers the Wasm stack on Astar/Shiden, some more advanced topics, and contains a few tutorials to help you build and deploy Wasm smart contracts.
 

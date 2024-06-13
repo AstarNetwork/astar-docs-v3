@@ -2,14 +2,14 @@
 sidebar_position: 2
 ---
 
-# Flipper Contract
+# Flipper
 This is step-by-step explanation of the process behind building an ink! smart contract, using a simple app called Flipper. The examples provided within this guide will help you develop an understanding of the basic elements and structure of ink! smart contracts.
 
 ## What is Flipper?
 Flipper is a basic smart contract that allows the user to toggle a boolean value located in storage to either `true` or `false`. When the flip function is called, the value will change from one to the other.
 
 ## Prerequisites
-Please refer to the [previous section](./flipper-contract.md) for the list of prerequisites.
+Please refer to the [previous section](./index.md) for the list of prerequisites.
 
 ## Flipper Smart Contract
 In a new project folder, execute the following:

@@ -1,3 +1,8 @@
+---
+title: Environment
+position: 2
+---
+
 import Figure from "/src/components/figure"
 
 # Set up the Development Environment

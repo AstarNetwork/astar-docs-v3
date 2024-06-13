@@ -1,4 +1,4 @@
-# ink!redible NFT architecture  
+# ink!redible NFT Architecture  
 
 This guide will give a brief overview of the !inkredible NFT on Astar.
 

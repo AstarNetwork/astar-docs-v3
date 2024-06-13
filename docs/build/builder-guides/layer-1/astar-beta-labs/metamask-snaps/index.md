@@ -1,4 +1,4 @@
-# MetaMask Snaps
+# MetaMask Snap
 
 ## Overview
 

@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 8. Launch Services
+# Launch Services
 
 ## Launch Services
 

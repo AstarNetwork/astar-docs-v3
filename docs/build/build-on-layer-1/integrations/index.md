@@ -1,3 +1,7 @@
+---
+position: 4
+---
+
 # Integrations
 
 Here you will find some common services available to developers building dApps on Astar Network, including sample configurations, and guides for many important elements of our infrastructure. For zkEVM-specific integrations please visit [this section](/docs/build/build-on-layer-2/integrations/index.md).

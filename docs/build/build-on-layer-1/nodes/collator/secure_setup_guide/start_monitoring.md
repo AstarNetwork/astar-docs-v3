@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# 9. Run Monitor Dashboard
+# Run Monitor Dashboard
 
 ## Run Grafana dashboard
 

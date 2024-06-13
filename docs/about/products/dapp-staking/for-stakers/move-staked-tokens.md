@@ -4,7 +4,7 @@ sidebar_position: 3
 
 import Figure from "/src/components/figure"
 
-# Move staked tokens between dApps
+# Move Staked Tokens Between dApps
 
 Once your tokens have been staked on a dApp, you always have the option of reconsidering your decisions and moving them to another dApp.
 

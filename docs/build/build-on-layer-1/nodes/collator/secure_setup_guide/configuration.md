@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 6. Configuration
+# Configuration
 
 :::tip
 There is a lot of copy/paste in this section, but it is highly recommended that you try to understand each step. Please use our official discord for support.

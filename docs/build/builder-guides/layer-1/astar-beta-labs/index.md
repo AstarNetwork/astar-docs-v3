@@ -1,3 +1,8 @@
+---
+title: Astar Beta Labs
+position: 3
+---
+
 # Astar Beta Labs
 
 ## Overview

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 import Figure from "/src/components/figure"
 
-# Manage dApp Staking & claim rewards
+# Manage dApp Staking & Claim Rewards
 
 Once you have staked, a new panel named **Staking**  will appear in the [Assets Page](https://portal.astar.network/astar/assets).
 
