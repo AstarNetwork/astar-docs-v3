@@ -42,7 +42,7 @@ Often abbreviated to DA, Data Availability refers to a component of modular bloc
  An Ethereum format address for Substrate-based blockchains.
 
  ### HRMP
- Short for Horizontal Relay-routed Message Passing. A precursor to the complete XCMP implementation, that mimics the same interface and semantics of XCMP.  The plan is to retire HRMP once the implementation of XCMP is complete.
+ Short for Horizontal Relay-routed Message Passing. A precursor to the complete XCMP implementation that mimics the same interface and semantics of XCMP.  The plan is to retire HRMP once the implementation of XCMP is complete.
 
  ### Ink!
  An embedded domain-specific language (eDSL) for writing smart contracts based on Rust.
@@ -90,10 +90,10 @@ A concept of layer 2 scaling. Modular blockchain systems move two or more of the
  Partition of a blockchain network that allows for parallel processing of transactions to increase scalability and network capacity.
 
  ### Shiden
- The "canary network" for Astar connected to Kusama, a canary network for Polkadot. It consists of an early-release, unaudited version of the Astar codebase. It is not a testnet. For more info refer to the [Networks](/docs/about/networks.md) section.
+ The "canary network" for Astar connected to Kusama, a canary network for Polkadot. It consists of an early-release, unaudited version of the Astar codebase. It is not a testnet. For more info refer to the [Networks](/docs/about/networks/network-overview.md) section.
 
  ### Shibuya
- A testnet for Shiden and Astar. For more info refer to the [Networks](/docs/about/networks.md) section.
+ A testnet for Shiden and Astar. For more info refer to the [Networks](/docs/about/networks/network-overview.md) section.
 
  ### Smart Contract
  A self-executing computer program that automatically enforces and executes the terms of an agreement between parties on a blockchain network.
@@ -114,7 +114,7 @@ A concept of layer 2 scaling. Modular blockchain systems move two or more of the
  Short for "test network": an experimental network where testing and development takes place. Networks are often executed on a testnet before they are deployed to a mainnet.
 
  ### Validium
- A concept related to layer 2 scaling. Validiums combine an off-chain execution environment based on zero-knowledge validity proofs with a Data Availability layer, effectively moving three of the four key blockchain functions over to highly specialized workers, freeing up the need for expensive resources on layer 1, leaving it to perform final settlement, only.
+ A concept related to layer 2 scaling. Validiums combine an off-chain execution environment based on zero-knowledge validity proofs with a separate Data Availability layer, effectively moving three of four key blockchain functions over to highly specialized workers, freeing up the need for expensive resources on layer 1 which in this case, performs settlement only.
 
  ### Vesting
  A mechanism where a certain amount of tokens is released to the owner gradually over a period of time, often used for incentivizing long-term commitments and discouraging short-term speculation.
@@ -123,24 +123,20 @@ A concept of layer 2 scaling. Modular blockchain systems move two or more of the
  A program that allows one to store private keys and sign transactions for Astar or other blockchain networks.
 
  ### Wasm
+Shorthand for WebAssembly, a language-agnostic, binary instruction format for a stack-based virtual machine.
 
- Also WebAssembly, a language-agnostic, binary instruction format for a stack-based virtual machine.
-
- ### XC-20
+ ### XC-20 or XC20
  A standard for cross-chain assets in Polkadot ecosystem with ERC-20 interface.
 
  ### XCM 
- Short for Cross-Consensus Messaging, a **messaging format**  and language used to communicate between consensus systems.
+ Short for Cross-Consensus Messaging, a **messaging format**  and language used to communicate between consensus systems. Think of HRMP channels or XCMP as a telephone system connecting Substrate networks, with XCM being one of the dialogues spoken on that telephone system.
 
  ### XVM
-  Short for Cross Virtual Machine, a pallet that provides interfaces for smart contracts that run on different virtual machines to interact with each other.
+Short for Cross Virtual Machine, a pallet that provides interfaces for smart contracts that run on different virtual machines to interact with each other.
 
  ### Zero-knowledge proof
  A cryptographic protocol that allows one party to prove knowledge of a secret without revealing the secret itself.
  
-  ### zKatana
- A testnet for Astar zkEVM. For more info refer to the [Networks](/docs/about/networks.md) section.
-
  ### Zombienet
  A CLI tool to easily spawn ephemeral Substrate-based networks and perform tests against them.
 

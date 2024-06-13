@@ -1,13 +1,13 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
+title: Network Overview
 ---
 
-# Networks
-## Overview
+# Overview
 
 Prior to commencing development it's important to understand the Astar Network family, and choose an appropriate network to deploy on based on what you would like to do. Currently, there are a number of networks available, including the Local network which runs exclusively within your development environment. All networks support EVM RPCs, and Astar Parachain supports Substrate RPC as well.
 
-![Astar networks](../about/products/img/fig4.jpg)
+![Astar networks](../../about/products/img/fig4.jpg)
 
 ## Local Networks
 

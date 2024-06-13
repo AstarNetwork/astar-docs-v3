@@ -3,7 +3,7 @@ sidebar_position: 12
 ---
 # Tokenomics 2.0
 
-Astar Network's tokenomics has been revised to best serve the needs of network participants, from users and builders to enterprise partners.
+Astar Network's tokenomics have been revised to best serve the needs of network participants, from users and builders to enterprise partners.
 
 Tokenomics 2.0 introduces a sustainable token allocation structure and network fees as well as a lower inflation rate.
 
