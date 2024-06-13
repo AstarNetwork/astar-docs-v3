@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-sidebar_label: Smart Contracts Blockchain
-title: High-Level Blockchain & Smart Contracts Overview
+title: What are Smart Contracts on the Blockchain?
 ---
+# Blockchain & Smart Contracts Overview
 
 Astar is a platform for smart contracts deployment.  Developers can create and deploy smart contracts on Astar Network using a variety of programming languages, including Solidity, which is compatible with Ethereum smart contracts or ink!, a Rust-based smart contract language for Polkadot ecosystem. This compatibility ensures a seamless transition for developers from other blockchain ecosystems, fostering interoperability and encouraging the adoption of Astar Network. 
 

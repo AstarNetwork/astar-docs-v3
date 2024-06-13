@@ -1,4 +1,5 @@
 ---
+title: How to Create a Unified Account
 sidebar_position: 2
 ---
 # How to create a unified account
