@@ -131,7 +131,7 @@ Most external projects and third parties (CEX) only support the Astar substrate 
 
 :::caution
 
-xcAssets (XCM tokens that are compatible with EVM networks) are non-transferrable to Astar Substrate accounts, even if at some point in time they originated from a Substrate account. To convert xcAssets to Astar Substrate, you would first need to perform a cross-chain transfer (XCM) back to the origin chain, and then another XCM transfer to Astar Substrate. If you'd like to know more, you can follow [the steps here](#transferring-cross-chainxcm-assets-to-other-chains-from-astar-network).
+xcAssets (XCM tokens that are compatible with EVM networks) are non-transferrable to Astar Substrate accounts, even if at some point in time they originated from a Substrate account. To convert xcAssets to Astar Substrate, you would first need to perform a cross-chain transfer (XCM) back to the origin chain, and then another XCM transfer to Astar Substrate. If you'd like to know more, you can follow [the steps here](/docs/use/how-to-guides/layer-1/astar-portal/transfer-tokens.md#from--astar-network-to-polkadot-or-other-parachains).
 
 :::
 

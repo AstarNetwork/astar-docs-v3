@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 ## Overview
 
-Running a tracing node on an Astar chain allows you to debug EVM transactions and have enhanced access to transaction pool using EVM debug RPC (INSERT_LINK also see link below).
+Running a tracing node on an Astar chain allows you to debug EVM transactions and have enhanced access to transaction pool using EVM debug RPC (INSERT LINK also see link below).
 
 ## Requirements
 
@@ -28,7 +28,7 @@ An EVM tracing node binary is different because it includes additional tracing f
 
 :::important
 
-EVM RPC calls are disabled by default, and require the `--enable-evm-rpc` flag to be enabled. Please refer to this page (INSERT_LINK) for more info.
+EVM RPC calls are disabled by default, and require the `--enable-evm-rpc` flag to be enabled. Please refer to this page [INSERT LINK] for more info.
 
 :::
 
@@ -61,7 +61,7 @@ To use tracing on an ancient blocks, you need to add the runtime that was in pla
 The service file for a tracing node will look like this
 
 :::tip
-Please make sure to change **{NODE_NAME}**
+Please make sure to change `{NODE_NAME}`
 :::
 
 <Tabs>

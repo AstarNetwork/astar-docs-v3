@@ -4,7 +4,7 @@ title: Guides
 
 import Figure from '/src/components/figure'
 
-# Builder Guides
+# Build on Astar Substrate Parachain
 
 <Figure src={require('/docs/build/img/builderguides.png').default } width="100%" />
 

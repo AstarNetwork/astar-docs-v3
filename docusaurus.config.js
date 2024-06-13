@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github; 
+const darkCodeTheme = require('prism-react-renderer').themes.github;
 
 const math = require('remark-math');
 const katex = require('rehype-katex');
@@ -17,6 +17,7 @@ const config = {
   favicon: 'img/wrench.svg',
   organizationName: 'Astar Network', // Usually your GitHub org/user name.
   projectName: 'astar-docs-v3', // Usually your repo name.
+  // customComponents: '/src/components', // megan attempt to fix need for import at top of each file in v3
   plugins: ['docusaurus-plugin-sass'],
   stylesheets: [
     {

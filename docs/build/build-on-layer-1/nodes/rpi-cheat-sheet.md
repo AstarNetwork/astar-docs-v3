@@ -89,36 +89,38 @@ Create a dedicated user for the node and move the node binary:
 
 Create a dedicated directory for the chain storage data: `sudo mkdir /var/lib/astar && sudo chown astar:astar /var/lib/astar`
 
-Create the Astar service file changing the name {NODE_NAME}
+Create the Astar service file changing the name `{NODE_NAME}`
 
+```sh
 sudo nano /etc/systemd/system/astar.service
 
-    [Unit]
-    Description=Astar Archive node
+[Unit]
+Description=Astar Archive node
 
-    [Service]
-    User=astar
-    Group=astar
+[Service]
+User=astar
+Group=astar
     
-    ExecStart=/usr/local/bin/astar-collator \
-    --pruning archive \
-    --rpc-cors all \
-    --name {NODE_NAME} \
-    --chain astar \
-    --base-path /var/lib/astar \
-    --rpc-external \
-    --ws-external \
-    --rpc-methods Safe \
-    --rpc-max-request-size 1 \
-    --rpc-max-response-size 1 \
-    --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
+ExecStart=/usr/local/bin/astar-collator \
+--pruning archive \
+--rpc-cors all \
+--name {NODE_NAME} \
+--chain astar \
+--base-path /var/lib/astar \
+--rpc-external \
+--ws-external \
+--rpc-methods Safe \
+--rpc-max-request-size 1 \
+--rpc-max-response-size 1 \
+--telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 
-    Restart=always
-    RestartSec=10
+Restart=always
+RestartSec=10
 
-    [Install]
-    WantedBy=multi-user.target
+[Install]
 
+WantedBy=multi-user.target
+```
 Save the file: Ctrl+O > Yes
 
 Start the service: `sudo systemctl start astar.service`

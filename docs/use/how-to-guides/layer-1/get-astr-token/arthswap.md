@@ -4,7 +4,10 @@ sidebar_label: Arthswap
 title: Buying ASTR on a DEX using Arthswap
 ---
 
-import Figure from "/src/components/figure"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Figure from '/src/components/figure'
+
 
 There are a few DEXs built on the Astar network. Arthswap is one of them, and since it's built on EVM, you need to interact with the Astar EVM environment.
 
