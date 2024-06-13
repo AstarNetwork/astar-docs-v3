@@ -21,7 +21,7 @@ cycle will be 70,000 ASTR.
 
 Cycle length is configurable, but in practice it will resemble a 'year' off-chain.
 
- $inflation\_soft\_cap = inflation\_rate * total\_issuance$
+`$inflation\_soft\_cap = inflation\_rate * total\_issuance$`
 
 ### Periods
 
@@ -68,21 +68,21 @@ Based on the calculated _soft-cap_, rewards for all network participants are adj
 _Collators_ get a fixed amount of the cycle's _soft-capped_ inflation.
 This amount is equally divided by the number of blocks in the cycle.
 
-$collator\_reward\_per\_block = \frac{total\_collator\_cycle\_reward}{blocks\_per\_cycle}$
+`$collator\_reward\_per\_block = \frac{total\_collator\_cycle\_reward}{blocks\_per\_cycle}$`
 
 ### Treasury
 
 Similar to the _collators_, treasury gets a fixed amount of the cycle's _soft-capped_ inflation 
 distributed in equal amounts throughout all the blocks in the cycle.
 
-$treasury\_reward\_per\_block = \frac{total\_treasury\_cycle\_reward}{blocks\_per\_cycle}$
+`$treasury\_reward\_per\_block = \frac{total\_treasury\_cycle\_reward}{blocks\_per\_cycle}$`
 
 ### dApps
 
 dApp reward are _assigned_ at the end of each era during `Build&Earn` subperiod.
 This means that the total cycle's dApp reward amount has to be equally divided by the total number of `Build&Earn` eras in a cycle.
 
-$dapp\_reward\_pool\_per\_era = \frac{total\_dapp\_cycle\_reward}{periods\_per\_cycle * eras\_per\_build\_and\_earn}$
+`$dapp\_reward\_pool\_per\_era = \frac{total\_dapp\_cycle\_reward}{periods\_per\_cycle * eras\_per\_build\_and\_earn}$`
 
 The dApp staking protocol will calculate how much each staked dApp should get.
 
@@ -97,27 +97,27 @@ These rewards have two components - the _base_ reward and the _adjustable_ rewar
 
 Base reward is the amount assigned to the reward pool at the end of each era regardless of how much has been staked in total.
 
-$base\_staker\_reward\_pool\_per\_era = \frac{total\_base\_staker\_cycle\_reward}{number\_of\_cycles * eras\_per\_build\_and\_earn}$
+`$base\_staker\_reward\_pool\_per\_era = \frac{total\_base\_staker\_cycle\_reward}{number\_of\_cycles * eras\_per\_build\_and\_earn}$`
 
 The adjustable part is the dynamic part, and depends on the _total value staked_ and the _target stake value_.
 This amount linearly increases as the _total value staked_ increases, and then saturates once the amount is reached or exceeded.
 With this component, _staker rewards_ are not a _zero-sum game_.
 
-$max_\_adjustable\_staker\_reward\_pool\_per\_era = \frac{total\_adjustable\_staker\_cycle\_reward}{number\_of\_cycles * eras\_per\_build\_and\_earn}$
+`$max_\_adjustable\_staker\_reward\_pool\_per\_era = \frac{total\_adjustable\_staker\_cycle\_reward}{number\_of\_cycles * eras\_per\_build\_and\_earn}$`
 
 The adjustable part of the reward is calculated once an era ends, using the _total value staked_ at that point in time.
 
-$adjustable\_factor = min(1, \frac{total\_value\_staked\_percent}{ideal\_staking\_percent})$
+`$adjustable\_factor = min(1, \frac{total\_value\_staked\_percent}{ideal\_staking\_percent})$`
 
 Using the _adjustable\_factor_, adjustable portion of the staker reward is:
 
-$adjustable\_staker\_reward\_pool = max_\_adjustable\_staker\_reward\_pool\_per\_era * adjustable\_factor$
+`$adjustable\_staker\_reward\_pool = max_\_adjustable\_staker\_reward\_pool\_per\_era * adjustable\_factor$`
 
 When the _adjustable factor_ is less than **1**, it means the remainder is never minted, reducing the overall inflation.
 
 With the above formulas, we can finally express how much staker _Alice_ earns in era **n**:
 
-$staker\_reward\_per\_era_{Alice} = \frac{staked\_value_{Alice,n}}{total\_staked\_value_n} * (base\_staker\_reward\_pool\_per\_era_n + adjustable\_staker\_reward\_pool_n)$
+`$staker\_reward\_per\_era_{Alice} = \frac{staked\_value_{Alice,n}}{total\_staked\_value_n} * (base\_staker\_reward\_pool\_per\_era_n + adjustable\_staker\_reward\_pool_n)$`
 
 #### Bonus Rewards
 
@@ -126,11 +126,11 @@ was staked at the end of the `Voting` subperiod, it will make them eligible for 
 
 Bonus reward pool is assigned per period, and can be expressed as:
 
-$bonus\_reward\_pool\_per\_period = \frac{total\_bonus\_cycle\_reward}{periods\_per\_cycle}$
+`$bonus\_reward\_pool\_per\_period = \frac{total\_bonus\_cycle\_reward}{periods\_per\_cycle}$`
 
 The bonus reward for a staker _Alice_ can then be expressed as:
 
-$bonus\_staker\_reward_{Alice} = \frac{voting\_subperiod\_staked\_value_{Alice}}{total\_voting\_subperiod\_staked\_value} * (bonus\_reward\_pool\_per\_period)$
+`$bonus\_staker\_reward_{Alice} = \frac{voting\_subperiod\_staked\_value_{Alice}}{total\_voting\_subperiod\_staked\_value} * (bonus\_reward\_pool\_per\_period)$`
 
 ## Lazy Minting
 

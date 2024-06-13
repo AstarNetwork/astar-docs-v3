@@ -10,9 +10,9 @@ Once you have been approved by the Astar Council under Astar governance, you can
 
 ## Step 1: Native wallet & Verified Smart-contract
 
-Before you can register your dApp or project, make sure you have :
+Before you can register your dApp or project, make sure to have :
 
-#### 1. An [Astar Native developer wallet] (/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet) with some tokens to cover gas fee. *No Ledger hardware wallet or EVM wallet.*  **LINK TO UPDATE**
+#### 1. An [Astar Native developer wallet](/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet.md) with some tokens to cover gas fee. *No Ledger hardware wallets or EVM wallets.*
 
 You can use one of the following wallets:
 

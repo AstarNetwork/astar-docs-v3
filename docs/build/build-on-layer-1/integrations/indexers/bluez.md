@@ -17,6 +17,7 @@ First, obtain an API key [here](https://docs.google.com/forms/d/e/1FAIpQLSf5Fa3T
 
 ### Examples of GET queries available through this API:
 
+```js
 /nft/v3/{apiKey}/getNFTsForOwner
 
 /nft/v3/{apiKey}/getNFTMetadata
@@ -28,3 +29,4 @@ First, obtain an API key [here](https://docs.google.com/forms/d/e/1FAIpQLSf5Fa3T
 /nft/v3/{apiKey}/getOwnersForContract
 
 /nft/v3/{apiKey}/getNFTSales
+```

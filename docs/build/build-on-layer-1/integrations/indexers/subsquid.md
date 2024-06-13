@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import Figure from '/src/components/figure'
+
 # Subsquid
 
 [Subsquid](https://subsquid.io) is an indexing framework supporting both [Substrate](/docs/build/build-on-layer-1/smart-contracts/wasm/index.md) and [EVM](/docs/build/build-on-layer-1/smart-contracts/EVM/index.md)-based chains. It is extremely flexible and offers [high syncing speeds](https://docs.subsquid.io/migrate/subsquid-vs-thegraph/). Subsquid comes with a set of code generation tools that make ready-to-use, customizable indexer projects ("squids") out of contracts' ABIs. WASM/ink! and EVM/Solidity contracts are supported. Once scraped, the contract data can be served over a GraphQL API or stored as a dataset.

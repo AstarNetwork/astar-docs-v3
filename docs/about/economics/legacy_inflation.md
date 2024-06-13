@@ -88,7 +88,7 @@ TVL in this context does not consider non-ASTR tokens locked by other protocols 
 We're interested particularly in **TVL percentage**
 - $total\_issuance$ - total amount of issued **ASTR** tokens
 - $TVL$ - total amount of tokens locked in dApps-staking
-- $TVL_{\%} = {TVL \over total}$
+- `$TVL_{\%} = {TVL \over total}$`
 
 In case **total_issuance** equals 1000 and **TVL** is 242, **TVL percentage** will be `24.2%`.
 
@@ -110,34 +110,36 @@ The amount received by stakers and the treasury is dynamic and depends on TVL. H
 ##### Adjustable Percent
 
 Depending on the TVL, the **adjustable percent** of the block reward is split between stakers and the treasury.
-$$
-\begin{aligned}
-a&djustable_{staker} = min(1, {TVL_{\%} \over TVL_{ideal}}) * adjustable_{\%}
-\newline\newline
-t&otal_{staker} = base_{staker} + adjustable_{staker}
-\newline\newline
-t&otal_{treasury} = base_{treasury} + (adjustable_{\%} - adjustable_{staker})
-\end{aligned}
-$$
 
-As more tokens are staked and TVL increases, the portion of staker rewards increases in proportion to the growth of the network. This approach helps to compensate for the *zero-sum* nature of staking and incentivize more users to participate in securing the network. It's important to note that this reward increase is linear up to a certain threshold, known as the $TVL_{ideal}$ point. Once this threshold is reached, the reward increase will saturate, meaning that any further increase in TVL will not result in an increase in staker rewards. This ensures a fair and sustainable reward system that benefits all members of the Astar community.
+```js
+\begin{aligned}
+adjustable_{staker} = min(1, {TVL_{\%} \over TVL_{ideal}}) * adjustable_{\%}
+\newline\newline
+total_{staker} = base_{staker} + adjustable_{staker}
+\newline\newline
+total_{treasury} = base_{treasury} + (adjustable_{\%} - adjustable_{staker})
+\end{aligned}
+```
+
+As more tokens are staked and TVL increases, the portion of staker rewards increases in proportion to the growth of the network. This approach helps to compensate for the *zero-sum* nature of staking and incentivize more users to participate in securing the network. It's important to note that this reward increase is linear up to a certain threshold, known as the `$TVL_{ideal}$` point. Once this threshold is reached, the reward increase will saturate, meaning that any further increase in TVL will not result in an increase in staker rewards. This ensures a fair and sustainable reward system that benefits all members of the Astar community.
 
 Note that in Polkadot's model, when ideal TVL is reached, staker rewards drop exponentially. In our case, they only become saturated, making it a *zero-sum-game*. Motivation behind our approach is simplicity.
 
 ##### Interest Rate
 
 Using the parameters from the previous chapters, we can express yearly interest rate for the stakers:
-$$
+
+```
 i = {inflation_{annual} * total_{staker} \over TVL_{\%}}
-$$
+```
 
 For example, in case $total_{staker} = 55\%$ and $TVL_{\%} = 40\%$, we end up with ${0.1 * 0.55 \over 0.4}$ which is `13.75%` annual interest rate.
 
 However, inflation dilutes the interest rate so it's more precise to consider *inflation adjusted annual interest rate*.
 
-$$
+```
 i_{adjusted} = {i + 1 \over inflation_{anual} + 1} - 1
-$$
+```
 
 To follow up on the example above, *inflation adjusted* value would be ${0.1375 + 1 \over 0.1 + 1} - 1$ which is `3.4%`.
 

@@ -1,5 +1,7 @@
 # Astar Hacker Guide
 
+import Figure from '/src/components/figure'
+
 <Figure src={require('/docs/build/img/gradient8.jpg').default } width="100%" />
 
 Welcome to web3!
