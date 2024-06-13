@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 4. Building Your Collator
+# Building Your Collator
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

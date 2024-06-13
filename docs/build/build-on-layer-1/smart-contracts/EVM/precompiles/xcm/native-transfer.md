@@ -1,4 +1,4 @@
-# Transfer native token
+# Transfer Native Token
 
 Let's use `transfer_multiasset` to:
 

@@ -4,11 +4,13 @@ sidebar_position: 4
 
 import Figure from '/src/components/figure'
 
-# Create a promotion card on top page
+# Create a Promotion Card
 
-If you have a campaign or new product you would like to share in the community, this will help you spread the news. It will create a card which will be shown on the top of the dApp Staking page as well as the Portal asset page.
+If you have a campaign or new product you would like to share in the community, this will help you spread the news. Following this procedure will create a card shown on the top of the dApp Staking page, as well as the Portal asset page.
 
-You can create a PR once a month, at most.
+:::note
+Promotion cards may only be updated or changed **once a month**.
+:::
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/img/Promotion_card_3.png').default} width="90%" />
 

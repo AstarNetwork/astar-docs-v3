@@ -1,3 +1,7 @@
+---
+position: 1
+---
+
 import Figure from '/src/components/figure'
 
 # Introduction

@@ -15,8 +15,8 @@ The Astar documentation portal serves as the official repository of current info
 
 ## Developer Quickstart Guides
 
-- [**Deploy on Astar Substrate EVM Network**](build/build-on-layer-1/smart-contracts/EVM/index.md) [INSERT QUICKSTART EVM]
-- [**Deploy on Astar Substrate Native (Wasm) Network**](build/build-on-layer-1/smart-contracts/wasm/index.md) [INSERT QUICKSTART WASM]
+- [**Deploy on Astar Substrate EVM Network**](build/build-on-layer-1/smart-contracts/EVM/quickstart-evm.md).
+- [**Deploy on Astar Substrate Native (Wasm) Network**](build/build-on-layer-1/smart-contracts/wasm/index.md).
 - [**Deploy on Astar zkEVM**](build/build-on-layer-2/index.md)
 
 ## User Guides

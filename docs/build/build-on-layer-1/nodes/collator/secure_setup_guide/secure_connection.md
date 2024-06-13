@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 2. Secure SSH Connection
+# Secure SSH Connection
 
 **SSH access** is the most standard attack vector for an online server. An incredible number of robots and hackers scan the default port 22 and gain access, with basic and elaborated credentials.
 
