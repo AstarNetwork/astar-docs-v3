@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-import Figure from "/src/components/figure"
+import Figure from '/src/components/figure';
+import Details from '/src/components/Details.js';
+
 
 # Register dApp
 
@@ -12,14 +14,14 @@ Once you have been approved by the Astar Council under Astar governance, you can
 
 Before you can register your dApp or project, make sure you have :
 
-#### 1. An [Astar Native developer wallet] (/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet) with some tokens to cover gas fee. *No Ledger hardware wallet or EVM wallet.*  **LINK TO UPDATE**
+#### 1. An [Astar Native developer wallet](/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet.md) with some tokens to cover gas fee. *No Ledger hardware wallet or EVM wallet.*  **LINK TO UPDATE**
 
 You can use one of the following wallets:
 
 <details>
 <summary>**[Polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en)** *(Recommended)*</summary>
 
-The Polkadot\{.js\} plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with the Astar portal. We recommend users who are new to our ecosystem and want to create an Astar native address use this wallet. If you don't have the Polkadot JS extension you will receive a popup in our portal when you try to connect your wallet.
+The Polkadot.js plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with the Astar portal. We recommend users who are new to our ecosystem and want to create an Astar native address use this wallet. If you don't have the Polkadot JS extension you will receive a popup in our portal when you try to connect your wallet.
 
 ### Install the Browser Plugin
 
@@ -29,15 +31,15 @@ The browser plugin is available for both [Google Chrome](https://chrome.google.c
 
 ### Create Account
 
-Open the Polkadot\{.js\} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup.
+Open the Polkadot.js browser extension by clicking the logo on the top bar of your browser. You will see a browser popup.
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/img/Polkadotjs_2.png').default } width="70%" /> 
 
-Click the big plus button `Create new account`. The Polkadot\{.js\} plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
+Click the big plus button `Create new account`. The Polkadot.js plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/img/Polkadotjs_3.png').default } width="70%" /> 
 
-You should back up these words. Please, store the seed somewhere safe, secret, and secure. If you cannot access your account via Polkadot\{.js\} for some reason, you can re-enter your seed through the `Add account menu` by selecting `Import account from pre-existing seed`.
+You should back up these words. Please, store the seed somewhere safe, secret, and secure. If you cannot access your account via Polkadot.js for some reason, you can re-enter your seed through the `Add account menu` by selecting `Import account from pre-existing seed`.
 
 <Figure src={require('/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/img/Polkadotjs_4.png').default } width="70%" /> 
 

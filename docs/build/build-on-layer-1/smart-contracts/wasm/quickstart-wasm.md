@@ -2,7 +2,12 @@
 title: Quickstart Guide
 ---
 
-import Figure from '/src/components/figure'
+import Figure from '/src/components/figure';
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
 
 # Quickstart Guide for Astar Substrate Native Network
 Everything required to start deploying dApps on Astar Substrate Native Network (hereafter referred to as **Astar Substrate**), all in one place.
