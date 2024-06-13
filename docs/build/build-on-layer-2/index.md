@@ -1,5 +1,6 @@
 ---
-title: Build on Layer 2
+title: Build on Astar Layer 2
+position: 2
 ---
 
 import Figure from '/src/components/figure'

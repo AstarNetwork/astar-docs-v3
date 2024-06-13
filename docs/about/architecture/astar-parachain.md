@@ -1,5 +1,5 @@
 ---
-title: Astar Parachain
+title: Astar Substrate Network
 sidebar_position: 1
 ---
 

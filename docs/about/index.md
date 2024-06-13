@@ -1,6 +1,6 @@
 ---
 title: About Astar
-position: 3
+position: 2
 ---
 
 # Overview
