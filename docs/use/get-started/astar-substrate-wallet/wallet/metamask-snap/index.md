@@ -22,8 +22,8 @@ Follow these steps to interact with the Astar Wallet snap [Portal](https://porta
 
 ## Connect to the Portal
 
-Click the webpage button labeled "Astar Snap" with the MetaMask logo
-'/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/
+Click the webpage button labeled "Astar Snap" with the MetaMask logo.
+
 <Figure caption='Connect to the Portal' src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/01.png').default } width="100%" />
 
 ## Review & Accept Third-Party Software Notice

@@ -31,7 +31,7 @@ In this tutorial, we will introduce Math Wallet, a mobile wallet supporting Asta
 ## Connect your Math Wallet to the Astar Portal
 
 1. Click on the dApp browser;
-2. Search the [Astar portal](https://portal.astar.network/) and connect your Math Wallet. You will be able to use dApp staking (only on Astar Native) and make [token transfers] (https://docs.astar.network/docs/user-guides/transfer-tokens) between native to EVM and vice versa. **[INSERT LINK]**
+2. Search the [Astar portal](https://portal.astar.network/) and connect your Math Wallet. You will be able to use dApp staking (only on Astar Native) and make [token transfers](/docs/use/how-to-guides/layer-1/astar-portal/transfer-tokens.md) between native to EVM and vice versa.
 
 <Figure src={require('/docs/use/get-started/astar-substrate-wallet/mobile-wallet/math-wallet/img/mathwallet_4.png').default} width="80%" /> 
 <Figure src={require('/docs/use/get-started/astar-substrate-wallet/mobile-wallet/math-wallet/img/mathwallet_5.png').default} width="80%" /> 

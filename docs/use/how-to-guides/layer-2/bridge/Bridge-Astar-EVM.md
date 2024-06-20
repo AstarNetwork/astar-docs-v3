@@ -8,7 +8,7 @@ import Figure from "/src/components/figure"
 # Bridge Assets to Astar zkEVM from Astar EVM
 
 This page explains how to transfer `ASTR` between **Astar EVM** and **Astar zkEVM**.  
-If you have `ASTR` on Astar native (Substrate) instead, consult [this guide] (/docs/use/manage-assets/transfer-tokens#sending-astrsdn-to-astar-evm-from-astar-native-or-any-tokens-in-the-account) to transfer them from Astar native to Astar EVM.  **LINK TO UPDATE**
+If you have `ASTR` on Astar native (Substrate) instead, consult [this guide](/docs/use/how-to-guides/layer-1/astar-portal/transfer-tokens.md#from-astar-substrate-to-astar-evm) to transfer them from Astar native to Astar EVM.
 
 ## Transfer using Stargate:
 
@@ -45,6 +45,7 @@ You have the option of requesting gas tokens on Astar zkEVM (`ETH`). Stargate wi
 To add tokens to your EVM wallet manually, use the following contract addresses:
 - **ASTR:** `0xdf41220C7e322bFEF933D85D01821ad277f90172`
 - **DOT:** `0x7Cb5d4D178d93D59ea0592abF139459957898a59`
+- **vASTR:** `0x7746ef546d562b443AE4B4145541a3b1a3D75717`
 :::
 
 ### From Astar zkEVM to Astar EVM:

@@ -12,7 +12,7 @@ Once you have been approved by the Astar Council under Astar governance, you can
 
 Before you can register your dApp or project, make sure to have :
 
-#### 1. An [Astar Native developer wallet](/docs/use/how-to-guides/layer-1/manage-wallets/create-wallet.md) with some tokens to cover gas fee. *No Ledger hardware wallets or EVM wallets.*
+#### 1. An [Astar Native developer wallet](/docs/use/get-started/astar-substrate-wallet/wallet/polkadot.js/install-polkadot-js.md) with some tokens to cover gas fee. *No Ledger hardware wallets or EVM wallets.*
 
 You can use one of the following wallets:
 
@@ -124,7 +124,7 @@ Format: `YQnbw3oWxBnCUarnbePrjFcrSgVPP2jqTZYzWcccmN8fXhd`
 
 2. The second option is reserved for those who don't handle smart contracts. Deploy our `helloworld.sol` contract and provide all the information in the header of the contract. [Template contract](https://github.com/AstarNetwork/builders-program/blob/main/hellowold.sol).
 
-The smart contract can be on Astar Native (WASM) or Astar EVM ([Public Endpoints] (/docs/build/environment/endpoints/#public-endpoints)). *(Not on Astar zkEVM)*  **LINK TO UPDATE**
+The smart contract can be on Astar Native (WASM) or Astar EVM ([Public Endpoints](/docs/build/build-on-layer-1/environment/endpoints.md#public-endpoints)). *(Not on Astar zkEVM)* 
 
 For the explorer, you can use:
 - [Subscan](https://astar.subscan.io/) for Astar Native;
