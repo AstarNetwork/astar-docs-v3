@@ -8,17 +8,21 @@ import Figure from '/src/components/figure'
 
 ## Introduction
     
-The Astar Wallet Snap extends MetaMask's functionality, specifically for blockchains built with Astar’s Substrate technology, powered by Polkadot. The Astar Wallet Snap enables you to quickly generate a Substrate wallet with MetaMask for signing transactions and interacting with decentralized applications (dApps) that utilize the `@polkadot/extension-dapp` package. You can seamlessly interact with all dApps in the Astar ecosystem through MetaMask, thereby expanding MetaMask's utility beyond Ethereum and EVM-compatible networks.
-    
-## How to install
-    
-Follow these steps to interact with the Astar Wallet snap [Portal](https://portal.astar.network/). The [source code](https://github.com/AstarNetwork/metamask-snap-astar/tree/master/packages/example) for the example dApp is available as part of the repository. This guide assumes that MetaMask is [installed](https://metamask.io/download/) and properly configured.
+The Astar Wallet Snap extends MetaMask's functionality, specifically for blockchains built with Substrate technology. The Astar Wallet Snap enables you to quickly generate a Substrate wallet with MetaMask for signing transactions and interacting with decentralized applications (dApps) that utilize the `@polkadot/extension-dapp package`. You can seamlessly interact with all dApps in the Astar ecosystem through MetaMask, thereby expanding MetaMask's utility beyond Ethereum and EVM-compatible networks.
 
 <div>
   <video width="300" controls>
     <source src={require('/docs/use/get-started/astar-substrate-wallet/wallet/metamask-snap/img/astar_snap_30s_v1.mp4').default } />
   </video>
-</div>
+</div>  
+
+:::note
+Snap-based accounts are derived from the private key associated with your MetaMask account (your seed phrase), so funds cannot be lost even in the event support for a particular Snap is discontinued.
+:::
+       
+## How to install
+
+Follow these steps to interact with the Astar Wallet snap [Portal](https://portal.astar.network/). The [source code](https://github.com/AstarNetwork/metamask-snap-astar/tree/master/packages/example) for the example dApp is available as part of the repository. This guide assumes that MetaMask is [installed](https://metamask.io/download/) and properly configured.
 
 ## Connect to the Portal
 
