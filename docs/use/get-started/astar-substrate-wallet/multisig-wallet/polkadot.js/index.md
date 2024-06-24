@@ -32,6 +32,6 @@ This tutorial serves as a guide to create a multisig substrate wallet.
 ## Test the wallet
 
 1. The multisig wallet is created.
-2. To test the multisig wallet, it is recommended to first use Shibuya testnet. You can get SBY faucet from [https://portal.astar.network](https://portal.astar.network) by connecting your own wallet. See reference here. **[INSERT LINK]**
+2. To test the multisig wallet, it is recommended to first use Shibuya testnet. You can get SBY faucet from [https://portal.astar.network](https://portal.astar.network) by connecting your own wallet. See reference [here](/docs/build/build-on-layer-1/environment/faucet.md).
 3. After getting SBY tokens from the faucet, you can send SBY to the multisig address and start playing around.
 

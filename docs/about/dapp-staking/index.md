@@ -37,7 +37,7 @@ This market dynamic enables dApp stakers to get more long-term value from their 
 
 :::tip
 
-Please refer to [this section](/docs/about/products/dapp-staking/for-stakers/index.md) to learn more about participating as a **Staker**.
+Please refer to [this section](/docs/use/how-to-guides/layer-1/dapp-staking/for-stakers/index.md) to learn more about participating as a **Staker**.
 
 :::
 
@@ -53,7 +53,7 @@ That is why Astar considers it essential to provide developers with financial mo
 
 :::tip
 
-Please refer to [this section](/docs/about/products/dapp-staking/index.md) to learn more about participating as a **dApp builder**.
+Please refer to [this section](/docs/about/dapp-staking/index.md) to learn more about participating as a **dApp builder**.
 
 :::
 
@@ -117,7 +117,7 @@ As an user or a dApp owner, you need to take the following parameters into consi
 | Unlocking Period               | 9 Eras (~9 days)    | 4 Eras (~4 days)    | 4 Eras (~1 day)     |
 | Minimum Amount to Stake        | 500 ASTR            | 50 SDN              | 5 SBY               |
 
-For the full list of parameters, please check the [dApp staking parameters page](/docs/about/products/dapp-staking/protocol-parameters.md) and [Tokenomics 2.0 page](https://docs.astar.network/about/economics/inflation).
+For the full list of parameters, please check the [dApp staking parameters page](/docs/about/dapp-staking/protocol-parameters.md) and [Tokenomics 2.0 page](/docs/about/economics/Inflation.md).
 
 #### Tier System
 
@@ -131,7 +131,7 @@ You can always view in what tier the dApp is in the Projects Leaderboard on the 
 
 :::tip
 
-Find out more about the Tier system for dApps [here](/docs/about/products/dapp-staking/for-devs/index.md#tier-system-and-rewards).
+Find out more about the Tier system for dApps [here](/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/index.md#tier-system-and-rewards).
 
 :::
 
@@ -145,13 +145,13 @@ As a result, stakers are rewarded for their commitment and staking efforts.
 
 :::tip
 
-- If you are **ASTR or SDN token holder** interested in **staking**, refer to [this section](/docs/about/products/dapp-staking/for-stakers/index.md) to learn more about participating as a staker.
+- If you are **ASTR or SDN token holder** interested in **staking**, refer to [this section](/docs/use/how-to-guides/layer-1/dapp-staking/for-stakers/index.md) to learn more about participating as a staker.
 
-- If you are a **dApp developer** building on Astar, refer to [this section](/docs/about/products/dapp-staking/for-devs/index.md) to learn more about participating as a dApp builder.
+- If you are a **dApp developer** building on Astar, refer to [this section](/docs/use/how-to-guides/layer-1/dapp-staking/for-devs/index.md) to learn more about participating as a dApp builder.
 
-- For detailed **technical overview** of dAppStaking protocol, visit this [page](/docs/about/products/dapp-staking/dapp-staking-protocol.md)
+- For detailed **technical overview** of dAppStaking protocol, visit this [page](/docs/about/dapp-staking/dapp-staking-protocol.md)
 
-- Check the [**FAQ section**](/docs/about/products/dapp-staking/dapp-staking-faq.md), especially covering topics around new version of dApp Staking (V3) planned to go live on Astar in Q1 2024.
+- Check the [**FAQ section**](/docs/about/dapp-staking/dapp-staking-faq.md), especially covering topics around new version of dApp Staking (V3) planned to go live on Astar in Q1 2024.
 
 :::
 

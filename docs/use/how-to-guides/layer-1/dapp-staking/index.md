@@ -12,13 +12,11 @@ For every block produced on the network, a segment of inflation is specifically 
 
 As a dApp gains popularity and attracts more stakers, the developers stand to receive a greater share of block rewards. Importantly, the dApp staking program is inclusive, accommodating projects utilizing EVM and Wasm technologies, along with zkEVM dApps. 
 
-For a more detailed explanation of dApp Staking, refer to the comprehensive presentation in the [Learn section] (/docs/about/products/dapp-staking/). **LINK TO UPDATE**
+For a more detailed explanation of dApp Staking, refer to the comprehensive presentation in the [About Astar section](/docs/about/dapp-staking/index.md).
 
 ### User & Developers guides
 
 In the following sections, you'll find all the help you need to interact with dApp Staking as a staker or dApp owner. 
-
-You will also find guides for dApp Staking V2 for reference until the full transition to dApp Staking V3.
 
 
 import DocCardList from '@theme/DocCardList';

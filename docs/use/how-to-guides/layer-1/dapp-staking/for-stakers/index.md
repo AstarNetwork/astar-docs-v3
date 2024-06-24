@@ -6,13 +6,13 @@ import Figure from "/src/components/figure"
 
 Do you love to stake? Or do you want to support your favorite project on Astar Network or Shiden Network? 
 
-Discover [dApp Staking] (/docs/about/products/dapp-staking/)  **LINK TO UPDATE**, a unique mechanism that allows communities to support their favorite teams by staking ASTR or SDN with them. When staking ASTR or SDN on a dApp, users not only support the development of innovative apps but also receive staking rewards from inflation.
+Discover [dApp Staking](/docs/about/dapp-staking/index.md), a unique mechanism that allows communities to support their favorite teams by staking ASTR or SDN with them. When staking ASTR or SDN on a dApp, users not only support the development of innovative apps but also receive staking rewards from inflation.
 
-You can educate yourself more by reading the technical documentation about [dApp Staking] (/docs/about/products/dapp-staking/).  **LINK TO UPDATE** 
+You can educate yourself more by reading the technical documentation about [dApp Staking Technical Overview](/docs/about/dapp-staking/dapp-staking-protocol.md).
 
 :::tip
 
-Before reading the dApp Staking section for stakers, make sure you understand the concept of periods, subperiods and eras, as well as the dApp Staking V3 parameters explained [here] (/docs/about/products/dapp-staking/#understand-the-terminology-and-parameters-of-dapp-staking).  **LINK TO UPDATE**
+Before reading the dApp Staking section for stakers, make sure you understand the concept of periods, subperiods and eras, as well as the dApp Staking V3 parameters explained [here](/docs/about/dapp-staking/index.md#understand-the-terminology-and-parameters-of-dapp-staking).
 
 :::
 
@@ -66,7 +66,7 @@ Bonus rewards for a period can only be claimed after the period finishes.
 - When unlocking tokens, there is a unlocking period on Astar and on Shiden. The unlocking period lenghts can be consulted [here] (/docs/about/products/dapp-staking/#parameters).  **LINK TO UPDATE**
 Please note that this is based on a perfect block production of 12s. In case of any delay, your unlocking period can be a little longer.
 
-In case you have any questions, please check the [FAQ page] (/docs/about/products/dapp-staking/dapp-staking-faq/)  **LINK TO UPDATE** in the Learn section or join our [Discord channel](https://discord.com/invite/astarnetwork).
+In case you have any questions, please check the [FAQ page](/docs/about/dapp-staking/dapp-staking-faq.md)  **LINK TO UPDATE** in the Learn section or join our [Discord channel](https://discord.com/invite/astarnetwork).
 
 ### Other pages may be of interest:
 

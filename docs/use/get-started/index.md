@@ -4,11 +4,23 @@ sidebar_label: Get Started
 title: Get Started on Astar network
 ---
 
-## Head Title
+Welcome to the **Get Started** section.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Explore various wallet providers available on Astar Network Native and EVM, including Metamask, Ledger, Polkadot\{.js\}, Talisman, or Subwallet.
 
-## Pages of interest:
+Follow our easy guides to set them up according to your needs (browser, multisig. mobile. etc). 
+
+### Get Started:
+- [Astar EVM - Choose your wallet](/docs/use/get-started/astar-evm-wallet/index.md):
+    - *Wallet*
+- [Astar Substrate - Choose your wallet](/docs/use/get-started/astar-substrate-wallet/index.md):
+    - *Wallet*
+    - *Mobile wallet*
+    - *Multisig wallet*
+
+Start quickly and securely on Astar Network.
+
+### Pages of interest:
 
 import DocCardList from '@theme/DocCardList';
 import {useCurrentSidebarCategory} from '@docusaurus/theme-common';

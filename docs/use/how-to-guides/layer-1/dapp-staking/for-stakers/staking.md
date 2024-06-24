@@ -42,7 +42,7 @@ Click on the project cards for more information, access to their communities or 
 
 :::important
 
-Before using dApp Staking, make sure you understand all the parameters and rules described [here] (/docs/about/products/dapp-staking/#parameters).   **LINK TO UPDATE**
+Before using dApp Staking, make sure you understand all the parameters and rules described [here](/docs/about/dapp-staking/index.md#parameters).
 An address can only stake on a maximum of 16 contracts (dApps).
 :::
 
